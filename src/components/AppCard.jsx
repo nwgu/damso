@@ -4,9 +4,9 @@ function AppCard({ app }) {
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
             <div className="flex items-center gap-4 mb-4">
                 <img
-                    src={app.icon}
+                    src={`/images/${app.icon}`}
                     alt={app.name}
-                    className="w-16 h-16 rounded-xl"
+                    className="w-16 h-16 rounded-xl object-cover"
                 />
                 <div>
                     <h3 className="text-xl font-bold text-gray-900">{app.name}</h3>

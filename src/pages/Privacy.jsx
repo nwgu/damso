@@ -1,4 +1,4 @@
-// src/pages/Privacy.jsx (새 파일)
+// src/pages/Privacy.jsx
 import Layout from '../components/Layout';
 
 function Privacy() {
@@ -19,14 +19,28 @@ function Privacy() {
                         </ul>
                     </section>
 
+                    {/* 수정된 부분: 앱 별 수집 항목 명시 */}
                     <section>
                         <h2 className="text-xl font-bold text-gray-900 mb-3">2. 수집하는 개인정보 항목</h2>
-                        <p>각 앱에서 수집하는 개인정보는 앱별로 상이하며, 각 앱 내에서 별도로 고지됩니다.</p>
-                        <p className="mt-2">일반적으로 수집될 수 있는 항목:</p>
-                        <ul className="list-disc pl-6 mt-2">
-                            <li>필수항목: 이메일, 닉네임</li>
-                            <li>선택항목: 프로필 사진, 연락처</li>
-                            <li>자동 수집: 기기정보, IP주소, 쿠키, 서비스 이용 기록</li>
+                        <p>회사는 서비스 제공을 위해 앱 별로 아래와 같은 개인정보를 수집합니다.</p>
+
+                        <h3 className="font-bold mt-4 mb-2 text-gray-900">1) 공통 수집 항목 (모든 앱)</h3>
+                        <ul className="list-disc pl-6">
+                            {/* <li>자동 수집: 서비스 이용 기록, 접속 로그, 쿠키, 접속 IP 정보, 기기 정보(모델명, OS 버전), 불량 이용 기록</li> */}
+                            <li>-</li>
+                        </ul>
+
+                        <h3 className="font-bold mt-4 mb-2 text-gray-900">2) 앱 별 수집 항목</h3>
+                        <ul className="list-disc pl-6 space-y-2">
+                            <li>
+                                <span className="font-semibold text-gray-900">끄적이(Memo App):</span>
+                                {/* <span className="ml-1">(회원가입 시) 이메일, 닉네임 / (비회원) 별도 서버 수집 정보 없음</span> */}
+                                <span className="ml-1">별도 서버 수집 정보 없음</span>
+                            </li>
+                            {/* <li>
+                                <span className="font-semibold text-gray-900">건강하개(Pet App):</span>
+                                <span className="ml-1">반려동물 정보(이름, 품종, 나이), 프로필 사진</span>
+                            </li> */}
                         </ul>
                     </section>
 
@@ -71,11 +85,11 @@ function Privacy() {
 
                     <section>
                         <h2 className="text-xl font-bold text-gray-900 mb-3">7. 개인정보처리방침 변경</h2>
-                        <p>이 개인정보처리방침은 2024년 1월 1일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                        <p>이 개인정보처리방침은 2025년 1월 1일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
                     </section>
 
                     <div className="mt-8 text-sm text-gray-500">
-                        <p>시행일자: 2024년 1월 1일</p>
+                        <p>시행일자: 2025년 1월 1일</p>
                     </div>
                 </div>
             </div>
