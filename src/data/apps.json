@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Sample App",
+        "category": "Productivity",
+        "description": "앱 설명을 입력하세요",
+        "icon": "https://via.placeholder.com/64",
+        "appStore": "https://apps.apple.com/",
+        "playStore": "https://play.google.com/"
+    }
+]
