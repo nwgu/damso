@@ -7,7 +7,7 @@ function App() {
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Apps</h2>
+        {/* <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Apps</h2>
         {appsData.length === 0 ? (
           <p className="text-gray-500 text-center py-12">앱을 추가해주세요</p>
         ) : (
@@ -16,7 +16,7 @@ function App() {
               <AppCard key={app.id} app={app} />
             ))}
           </div>
-        )}
+        )} */}
       </div>
     </Layout>
   );
