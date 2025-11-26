@@ -40,7 +40,7 @@ function Layout({ children }) {
                     </div>
 
                     <div className="text-center mt-6 text-sm text-gray-500">
-                        © 2024 담소(Damso). All rights reserved.
+                        © 2025 담소(Damso). All rights reserved.
                     </div>
                 </div>
             </footer>
