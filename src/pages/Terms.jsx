@@ -43,7 +43,7 @@ function TermsKo() {
         <div className="space-y-8 text-zinc-600">
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">제1조 (목적)</h2>
-                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
+                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이, 찍먹 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
             </section>
 
             <section>
@@ -65,7 +65,7 @@ function TermsKo() {
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">제4조 (서비스의 제공)</h2>
                 <p>회사는 다음과 같은 서비스를 제공합니다:</p>
                 <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>메모, 기록 관리 등 회사가 개발하여 제공하는 각종 모바일 애플리케이션 서비스</li>
+                    <li>메모, 기록 관리, 랜덤 선택 도구 등 회사가 개발하여 제공하는 각종 모바일 애플리케이션 서비스</li>
                     <li>기타 회사가 추가 개발하거나 제휴계약 등을 통해 회원에게 제공하는 일체의 서비스</li>
                 </ul>
                 <p className="mt-2">서비스는 연중무휴, 1일 24시간 제공함을 원칙으로 합니다. 다만, 회사는 서비스 설비의 정기점검, 증설 및 교체를 위해 필요한 경우 일정 기간 동안 서비스를 중단할 수 있습니다.</p>
@@ -123,7 +123,7 @@ function TermsEn() {
         <div className="space-y-8 text-zinc-600">
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 1 (Purpose)</h2>
-                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Kkeujeogi, hereinafter "Service").</p>
+                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Kkeujeogi, JjikMeok, hereinafter "Service").</p>
             </section>
 
             <section>
@@ -145,7 +145,7 @@ function TermsEn() {
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 4 (Provision of Service)</h2>
                 <p>The Company provides the following services:</p>
                 <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>Various mobile application services developed and provided by the Company, such as memo and record management</li>
+                    <li>Various mobile application services developed and provided by the Company, such as memo management, record keeping, and random selection tools</li>
                     <li>All other services provided to members through additional development or partnership agreements</li>
                 </ul>
                 <p className="mt-2">The Service is available 24 hours a day, 365 days a year in principle. However, the Company may suspend the Service for a certain period for regular maintenance, expansion, or replacement of service facilities.</p>

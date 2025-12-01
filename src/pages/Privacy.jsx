@@ -61,7 +61,8 @@ function PrivacyKo() {
                 </ul>
                 <h3 className="font-medium mt-4 mb-2 text-zinc-900">2) 앱 별 수집 항목</h3>
                 <ul className="list-disc pl-6">
-                    <li><span className="font-medium text-zinc-900">끄적이(Memo App):</span> 별도 서버 수집 정보 없음</li>
+                    <li><span className="font-medium text-zinc-900">끄적이(Memo App):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
+                    <li><span className="font-medium text-zinc-900">찍먹(JjikMeok):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                 </ul>
             </section>
 
@@ -135,7 +136,8 @@ function PrivacyEn() {
                 </ul>
                 <h3 className="font-medium mt-4 mb-2 text-zinc-900">2) App-specific Items</h3>
                 <ul className="list-disc pl-6">
-                    <li><span className="font-medium text-zinc-900">Kkeujeogi (Memo App):</span> No server-side data collection</li>
+                    <li><span className="font-medium text-zinc-900">Kkeujeogi (Memo App):</span> No server-side data collection (All data stored locally on device)</li>
+                    <li><span className="font-medium text-zinc-900">JjikMeok (Random Picker):</span> No server-side data collection (All data stored locally on device)</li>
                 </ul>
             </section>
 
