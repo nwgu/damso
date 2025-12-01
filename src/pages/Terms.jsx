@@ -31,7 +31,7 @@ function Terms() {
                 {lang === 'ko' ? <TermsKo /> : <TermsEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2025년 1월 1일' : 'Effective Date: January 1, 2025'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2025년 11월 21일' : 'Effective Date: November 21, 2025'}</p>
                 </div>
             </div>
         </Layout>

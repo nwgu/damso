@@ -31,7 +31,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2025년 1월 1일' : 'Effective Date: January 1, 2025'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2025년 11월 21일' : 'Effective Date: November 21, 2025'}</p>
                 </div>
             </div>
         </Layout>
@@ -106,7 +106,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2025년 1월 1일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2025년 11월 21일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -180,7 +180,7 @@ function PrivacyEn() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. Changes to Privacy Policy</h2>
-                <p>This Privacy Policy is effective from January 1, 2025. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
+                <p>This Privacy Policy is effective from November 21, 2025. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
             </section>
         </div>
     );
