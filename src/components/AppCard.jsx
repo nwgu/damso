@@ -1,39 +1,29 @@
 // src/components/AppCard.jsx
 function AppCard({ app }) {
     return (
-        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-            <div className="flex items-center gap-4 mb-4">
+        <div className="bg-white rounded-2xl p-5 border border-zinc-100 hover:border-zinc-200 hover:shadow-lg transition-all duration-300">
+            <div className="flex items-start gap-4 mb-4">
                 <img
                     src={`/images/${app.icon}`}
                     alt={app.name}
-                    className="w-16 h-16 rounded-xl object-cover"
+                    className="w-14 h-14 rounded-xl object-cover shadow-sm"
                 />
-                <div>
-                    <h3 className="text-xl font-bold text-gray-900">{app.name}</h3>
-                    <p className="text-sm text-gray-500">{app.category}</p>
+                <div className="flex-1 min-w-0">
+                    <h3 className="text-base font-semibold text-zinc-900 truncate">{app.name}</h3>
+                    <p className="text-xs text-zinc-400 mt-0.5">{app.category}</p>
                 </div>
             </div>
 
-            <p className="text-gray-700 mb-4">{app.description}</p>
+            <p className="text-sm text-zinc-600 leading-relaxed mb-5">{app.description}</p>
 
-            <div className="flex gap-3">
+            <div className="flex gap-2">
                 {app.appStore && (
-                    <a
-                        href={app.appStore}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 bg-black text-white text-center py-2 rounded-lg hover:bg-gray-800 transition"
-                    >
+                    <a href={app.appStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-zinc-900 text-white text-center py-2.5 text-sm font-medium rounded-xl hover:bg-zinc-800 transition-colors">
                         App Store
                     </a>
                 )}
                 {app.playStore && (
-                    <a
-                        href={app.playStore}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 bg-green-600 text-white text-center py-2 rounded-lg hover:bg-green-700 transition"
-                    >
+                    <a href={app.playStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-zinc-100 text-zinc-900 text-center py-2.5 text-sm font-medium rounded-xl hover:bg-zinc-200 transition-colors">
                         Play Store
                     </a>
                 )}
