@@ -3,7 +3,7 @@
         "id": 1,
         "name": "끄적이",
         "category": "생산성",
-        "description": "메모 앱",
+        "description": "메모장, 노트, 간편 기록",
         "icon": "끄적이.png",
         "appStore": "",
         "playStore": "https://play.google.com/store/apps/details?id=com.kkeujeogiapp"
