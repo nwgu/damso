@@ -5,7 +5,7 @@ function Layout({ children }) {
     return (
         <div className="min-h-screen bg-zinc-50 flex flex-col">
             <header className="bg-white/80 backdrop-blur-md border-b border-zinc-100 sticky top-0 z-50">
-                <div className="max-w-5xl mx-auto px-6 py-4">
+                <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
                     <Link to="/" className="flex items-center gap-2.5 w-fit group">
                         <div className="w-9 h-9 bg-zinc-900 rounded-lg flex items-center justify-center">
                             <span className="text-white text-sm font-semibold">💬</span>
@@ -15,6 +15,15 @@ function Layout({ children }) {
                             <p className="text-zinc-500 text-xs">Mobile App Studio</p>
                         </div>
                     </Link>
+
+                    <a
+                        href="https://open.kakao.com/o/spOG7G4h"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 text-sm font-medium text-zinc-700 bg-white/60 backdrop-blur border border-zinc-200 rounded-full shadow-sm hover:shadow hover:bg-white transition-all"
+                    >
+                        문의하기
+                    </a>
                 </div>
             </header>
 
