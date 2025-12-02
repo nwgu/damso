@@ -27,6 +27,11 @@ function AppCard({ app }) {
                         Play Store
                     </a>
                 )}
+                {!app.appStore && !app.playStore && (
+                    <div className="flex-1 bg-zinc-50 text-zinc-400 text-center py-2.5 text-sm font-medium rounded-xl border border-dashed border-zinc-200">
+                        Coming Soon
+                    </div>
+                )}
             </div>
         </div>
     );
