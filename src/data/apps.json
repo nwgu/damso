@@ -12,9 +12,9 @@
         "id": 2,
         "name": "찍먹",
         "category": "도구",
-        "description": "선택 도우미 룰렛",
+        "description": "랜덤 룰렛, 빠른 선택",
         "icon": "찍먹.png",
         "appStore": "",
-        "playStore": ""
+        "playStore": "https://play.google.com/store/apps/details?id=com.damso.jjikmeokapp"
     }
 ]
