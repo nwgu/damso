@@ -16,5 +16,14 @@
         "icon": "찍먹.png",
         "appStore": "",
         "playStore": "https://play.google.com/store/apps/details?id=com.damso.jjikmeokapp"
+    },
+    {
+        "id": 3,
+        "name": "until.",
+        "category": "라이프스타일",
+        "description": "기념일 디데이 위젯 & 카운트다운",
+        "icon": "until.png",
+        "appStore": "",
+        "playStore": ""
     }
 ]
