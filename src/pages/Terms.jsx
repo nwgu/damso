@@ -125,7 +125,7 @@ function TermsEn() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 1 (Purpose)</h2>
                 {/* [Added] Until */}
-                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Kkeujeogi, JjikMeok, Until, hereinafter "Service").</p>
+                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, hereinafter "Service").</p>
             </section>
 
             <section>
