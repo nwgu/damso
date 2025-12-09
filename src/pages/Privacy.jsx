@@ -138,9 +138,9 @@ function PrivacyEn() {
                 <h3 className="font-medium mt-4 mb-2 text-zinc-900">2) App-specific Items</h3>
                 <ul className="list-disc pl-6">
                     <li><span className="font-medium text-zinc-900">Scribbly (Memo App):</span> No server-side data collection (All data stored locally on device)</li>
-                    <li><span className="font-medium text-zinc-900">JjikMeok (Random Picker):</span> No server-side data collection (All data stored locally on device)</li>
+                    <li><span className="font-medium text-zinc-900">QuickPick (Random Picker):</span> No server-side data collection (All data stored locally on device)</li>
                     {/* [Added] Until App */}
-                    <li><span className="font-medium text-zinc-900">Until (D-Day App):</span> No server-side data collection (All data stored locally on device)</li>
+                    <li><span className="font-medium text-zinc-900">Until. (D-Day App):</span> No server-side data collection (All data stored locally on device)</li>
                 </ul>
             </section>
 
