@@ -25,5 +25,14 @@
         "icon": "until.png",
         "appStore": "",
         "playStore": "https://play.google.com/store/apps/details?id=com.damso.untilapp"
+    },
+    {
+        "id": 4,
+        "name": "Sync",
+        "category": "엔터테이먼트",
+        "description": "말하지 않아도 통하는 우리 사이, 데이터로 증명해 봐.",
+        "icon": "sync.png",
+        "appStore": "",
+        "playStore": ""
     }
 ]
