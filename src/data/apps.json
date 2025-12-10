@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Sync",
-        "category": "엔터테이먼트",
+        "category": "엔터테인먼트",
         "description": "말하지 않아도 통하는 우리 사이, 데이터로 증명해 봐.",
         "icon": "sync.png",
         "appStore": "",
