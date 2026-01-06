@@ -1,34 +1,49 @@
-// src/components/AppCard.jsx
 function AppCard({ app }) {
     return (
-        <div className="bg-white rounded-2xl p-5 border border-zinc-100 hover:border-zinc-200 hover:shadow-lg transition-all duration-300">
-            <div className="flex items-start gap-4 mb-4">
-                <img
-                    src={`/images/${app.icon}`}
-                    alt={app.name}
-                    className="w-14 h-14 rounded-xl object-cover shadow-sm"
-                />
-                <div className="flex-1 min-w-0">
-                    <h3 className="text-base font-semibold text-zinc-900 truncate">{app.name}</h3>
-                    <p className="text-xs text-zinc-400 mt-0.5">{app.category}</p>
+        <div className="group relative bg-white rounded-3xl p-6 border border-zinc-100 shadow-sm hover:shadow-xl hover:shadow-zinc-200/50 hover:-translate-y-1 transition-all duration-300 ease-out flex flex-col h-full">
+            {/* Header: Icon & Title */}
+            <div className="flex items-start gap-5 mb-5">
+                <div className="relative overflow-hidden rounded-2xl border border-zinc-100 shadow-inner">
+                    <img
+                        src={`/images/${app.icon}`}
+                        alt={app.name}
+                        className="w-16 h-16 object-cover transform group-hover:scale-110 transition-transform duration-500 ease-in-out"
+                    />
+                </div>
+                <div className="flex-1 min-w-0 pt-1">
+                    <div className="flex items-center justify-between">
+                        <h3 className="text-lg font-bold text-zinc-900 truncate tracking-tight">{app.name}</h3>
+                        <span className="text-[10px] font-semibold text-zinc-500 bg-zinc-100 px-2 py-1 rounded-full border border-zinc-200/50">
+                            {app.category}
+                        </span>
+                    </div>
+                    <p className="text-xs text-zinc-400 mt-1 font-medium">Damso Original</p>
                 </div>
             </div>
 
-            <p className="text-sm text-zinc-600 leading-relaxed mb-5">{app.description}</p>
+            {/* Description */}
+            <p className="text-sm text-zinc-600 leading-relaxed mb-8 flex-1 font-normal break-keep">
+                {app.description}
+            </p>
 
-            <div className="flex gap-2">
-                {app.appStore && (
-                    <a href={app.appStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-zinc-900 text-white text-center py-2.5 text-sm font-medium rounded-xl hover:bg-zinc-800 transition-colors">
-                        App Store
+            {/* Actions */}
+            <div className="flex gap-2.5 pt-4 mt-auto border-t border-zinc-50">
+                {app.appStore ? (
+                    <a href={app.appStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-zinc-900 text-white flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-semibold hover:bg-zinc-800 hover:shadow-lg hover:shadow-zinc-900/20 transition-all duration-300">
+                        <span>App Store</span>
                     </a>
-                )}
-                {app.playStore && (
-                    <a href={app.playStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-zinc-100 text-zinc-900 text-center py-2.5 text-sm font-medium rounded-xl hover:bg-zinc-200 transition-colors">
-                        Play Store
+                ) : null}
+
+                {app.playStore ? (
+                    <a href={app.playStore} target="_blank" rel="noopener noreferrer" className="flex-1 bg-white text-zinc-900 border border-zinc-200 flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-semibold hover:bg-zinc-50 hover:border-zinc-300 hover:shadow transition-all duration-300">
+                        <span>Play Store</span>
                     </a>
-                )}
+                ) : null}
+
+                {/* Coming Soon State */}
                 {!app.appStore && !app.playStore && (
-                    <div className="flex-1 bg-zinc-50 text-zinc-400 text-center py-2.5 text-sm font-medium rounded-xl border border-dashed border-zinc-200">
+                    <div className="w-full py-3 rounded-xl bg-zinc-50 border border-zinc-100 text-zinc-400 text-sm font-medium flex items-center justify-center gap-2 cursor-default">
+                        <span className="w-2 h-2 rounded-full bg-zinc-300 animate-pulse"></span>
                         Coming Soon
                     </div>
                 )}
