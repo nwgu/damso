@@ -7,7 +7,7 @@ function App() {
     <Layout>
       <div className="max-w-5xl mx-auto px-6 py-12 lg:py-16">
 
-        {/* 설명 문구 대신 -> 깔끔한 섹션 헤더 디자인 */}
+        {/* 설명 문구 대신 -> 깔끔한 섹션 헤더 디자인 **/}
         <div className="flex items-end justify-between border-b border-zinc-200 pb-6 mb-10">
           <div>
             <h2 className="text-3xl font-bold text-zinc-900 tracking-tight">
