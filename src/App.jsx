@@ -11,7 +11,7 @@ function App() {
         <div className="flex items-end justify-between border-b border-zinc-200 pb-6 mb-10">
           <div>
             <h2 className="text-3xl font-bold text-zinc-900 tracking-tight">
-              Projects
+              Our Apps
             </h2>
           </div>
           <div className="flex items-center gap-2">
