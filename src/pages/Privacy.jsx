@@ -64,6 +64,11 @@ function PrivacyKo() {
                     <li><span className="font-medium text-zinc-900">찍먹(QuickPick):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     {/* [추가됨] Until 앱 내용 */}
                     <li><span className="font-medium text-zinc-900">Until(언틸):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
+                    <li>
+                        <span className="font-medium text-zinc-900">기사도(Gisado):</span>
+                        소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등) 서버 저장.
+                        ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인 식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다.
+                    </li>
                 </ul>
             </section>
 
@@ -141,6 +146,11 @@ function PrivacyEn() {
                     <li><span className="font-medium text-zinc-900">QuickPick (Random Picker):</span> No server-side data collection (All data stored locally on device)</li>
                     {/* [Added] Until App */}
                     <li><span className="font-medium text-zinc-900">Until. (D-Day App):</span> No server-side data collection (All data stored locally on device)</li>
+                    <li>
+                        <span className="font-medium text-zinc-900">Gisado:</span>
+                        Collects email and name during social login. Study logs (quiz results) are stored on the server.
+                        * Study statistics are transmitted to an external AI service (Gemini API) for weakness analysis, but personally identifiable information is excluded and data is not used for AI training.
+                    </li>
                 </ul>
             </section>
 

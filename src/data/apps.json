@@ -34,5 +34,14 @@
         "icon": "sync.png",
         "appStore": "",
         "playStore": ""
+    },
+    {
+        "id": 5,
+        "name": "기사도",
+        "category": "교육",
+        "description": "2026 정보처리기사 AI 기출문제 풀이 & 오답 분석",
+        "icon": "gisado.png",
+        "appStore": "",
+        "playStore": "https://play.google.com/store/apps/details?id=com.damso.gisadoapp"
     }
 ]

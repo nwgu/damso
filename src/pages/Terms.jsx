@@ -43,8 +43,7 @@ function TermsKo() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">제1조 (목적)</h2>
                 {/* [수정됨] Until 추가 */}
-                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이, 찍먹, Until 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
-            </section>
+                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이, 찍먹, Until, 기사도 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>            </section>
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">제2조 (정의)</h2>
@@ -67,6 +66,7 @@ function TermsKo() {
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                     {/* [수정됨] 디데이 관리 내용 추가 */}
                     <li>메모, 기록 관리, 랜덤 선택 도구, 디데이 관리 등 회사가 개발하여 제공하는 각종 모바일 애플리케이션 서비스</li>
+                    <li>정보처리기사 기출문제 학습, 오답 노트, AI 기반 취약점 분석 등 수험 지원 서비스</li>
                     <li>기타 회사가 추가 개발하거나 제휴계약 등을 통해 회원에게 제공하는 일체의 서비스</li>
                 </ul>
                 <p className="mt-2">서비스는 연중무휴, 1일 24시간 제공함을 원칙으로 합니다. 다만, 회사는 서비스 설비의 정기점검, 증설 및 교체를 위해 필요한 경우 일정 기간 동안 서비스를 중단할 수 있습니다.</p>
@@ -125,8 +125,7 @@ function TermsEn() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 1 (Purpose)</h2>
                 {/* [Added] Until */}
-                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, hereinafter "Service").</p>
-            </section>
+                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, Gisado, hereinafter "Service").</p>            </section>
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 2 (Definitions)</h2>
@@ -149,6 +148,7 @@ function TermsEn() {
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                     {/* [Added] D-Day management */}
                     <li>Various mobile application services developed and provided by the Company, such as memo management, record keeping, random selection tools, and D-Day management</li>
+                    <li>Exam preparation support services, including past paper practice, incorrect answer notes, and AI-based weakness analysis</li>
                     <li>All other services provided to members through additional development or partnership agreements</li>
                 </ul>
                 <p className="mt-2">The Service is available 24 hours a day, 365 days a year in principle. However, the Company may suspend the Service for a certain period for regular maintenance, expansion, or replacement of service facilities.</p>
