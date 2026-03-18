@@ -57,6 +57,9 @@ function Layout({ children }) {
                                 <Link to="/terms" className="text-zinc-500 hover:text-white transition-colors">
                                     이용약관
                                 </Link>
+                                {/* <Link to="/child-safety" className="text-zinc-500 hover:text-white transition-colors">
+                                    아동 안전 표준
+                                </Link> */}
                             </div>
                             <a
                                 href="https://play.google.com/store/apps/developer?id=%EB%8B%B4%EC%86%8C"

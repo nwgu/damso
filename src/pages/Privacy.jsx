@@ -60,6 +60,10 @@ function PrivacyKo() {
                 </ul>
                 <h3 className="font-medium mt-4 mb-2 text-zinc-900">2) 앱 별 수집 항목</h3>
                 <ul className="list-disc pl-6">
+                    <li>
+                        <span className="font-medium text-zinc-900">Sync(싱크):</span>
+                        소셜 로그인 시 이메일, 이름, 프로필 사진 수집. 커플 연결 정보, 일정 데이터, 푸시 알림 토큰 서버 저장.
+                    </li>
                     <li><span className="font-medium text-zinc-900">끄적이(Memo App):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     <li><span className="font-medium text-zinc-900">찍먹(QuickPick):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     {/* [추가됨] Until 앱 내용 */}

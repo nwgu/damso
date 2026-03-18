@@ -29,8 +29,8 @@
     {
         "id": 4,
         "name": "Sync",
-        "category": "엔터테인먼트",
-        "description": "말하지 않아도 통하는 우리 사이, 데이터로 증명해 봐.",
+        "category": "라이프스타일",
+        "description": "커플 캘린더",
         "icon": "sync.png",
         "appStore": "",
         "playStore": ""
