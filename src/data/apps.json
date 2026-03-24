@@ -33,7 +33,7 @@
         "description": "커플 캘린더",
         "icon": "sync.png",
         "appStore": "",
-        "playStore": ""
+        "playStore": "https://play.google.com/store/apps/details?id=com.damso.SyncApp"
     },
     {
         "id": 5,
