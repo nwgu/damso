@@ -70,8 +70,8 @@ function PrivacyKo() {
                     <li><span className="font-medium text-zinc-900">Until(언틸):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     <li>
                         <span className="font-medium text-zinc-900">기사도(Gisado):</span>
-                        소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등) 서버 저장.
-                        ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인 식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다.
+                        기사도(Gisado):소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등), 푸시 알림 토큰(FCM),
+                        시험 목표일 서버 저장. ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다. ※ 서비스 개선을 위해 Firebase Analytics 를 통해 익명 사용 통계(앱 사용 시간, 화면 이동 경로, 기기 정보)가 수집됩니다.
                     </li>
                 </ul>
             </section>
