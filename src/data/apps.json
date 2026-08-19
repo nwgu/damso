@@ -43,5 +43,14 @@
         "icon": "gisado.png",
         "appStore": "",
         "playStore": "https://play.google.com/store/apps/details?id=com.damso.gisadoapp"
+    },
+    {
+        "id": 6,
+        "name": "키네틱코어",
+        "category": "게임",
+        "description": "이동만 하면 공격은 전자동. 무기를 진화시켜 20분 안에 최종 보스를 잡는 탄막 로그라이크",
+        "icon": "kineticcore.png",
+        "appStore": "",
+        "playStore": ""
     }
 ]

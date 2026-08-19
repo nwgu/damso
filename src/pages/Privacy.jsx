@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 5월 21일' : 'Effective Date: December 09, 2025'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 19일' : 'Effective Date: August 19, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -70,8 +70,13 @@ function PrivacyKo() {
                     <li><span className="font-medium text-zinc-900">Until(언틸):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     <li>
                         <span className="font-medium text-zinc-900">기사도(Gisado):</span>
-                        기사도(Gisado):소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등), 푸시 알림 토큰(FCM),
+                        소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등), 푸시 알림 토큰(FCM),
                         시험 목표일 서버 저장. ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다. ※ 서비스 개선을 위해 Firebase Analytics 를 통해 익명 사용 통계(앱 사용 시간, 화면 이동 경로, 기기 정보)가 수집됩니다.
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">키네틱코어(KineticCore):</span>
+                        별도 서버 수집 정보 없음. 네트워크 통신을 하지 않으며 인터넷 접근 권한을 포함한 어떠한 권한도 요청하지 않습니다.
+                        게임 기록(최고 생존 시간, 처치 수, 레벨, 보유 재화, 강화 상태)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제됩니다.
                     </li>
                 </ul>
             </section>
@@ -117,7 +122,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2026년 5월 21일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2026년 8월 19일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -146,6 +151,10 @@ function PrivacyEn() {
                 </ul>
                 <h3 className="font-medium mt-4 mb-2 text-zinc-900">2) App-specific Items</h3>
                 <ul className="list-disc pl-6">
+                    <li>
+                        <span className="font-medium text-zinc-900">Sync:</span>
+                        Collects email, name, and profile photo during social login. Couple connection information, schedule data, and push notification tokens are stored on the server.
+                    </li>
                     <li><span className="font-medium text-zinc-900">Scribbly (Memo App):</span> No server-side data collection (All data stored locally on device)</li>
                     <li><span className="font-medium text-zinc-900">QuickPick (Random Picker):</span> No server-side data collection (All data stored locally on device)</li>
                     {/* [Added] Until App */}
@@ -154,6 +163,11 @@ function PrivacyEn() {
                         <span className="font-medium text-zinc-900">Gisado:</span>
                         Collects email and name during social login. Study logs (quiz results) are stored on the server.
                         * Study statistics are transmitted to an external AI service (Gemini API) for weakness analysis, but personally identifiable information is excluded and data is not used for AI training.
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">KineticCore:</span>
+                        No server-side data collection. The app performs no network communication and requests no permissions, including internet access.
+                        Game records (best survival time, kill count, level, in-game currency, and upgrade state) are stored only on the user's device and are deleted when the app is uninstalled.
                     </li>
                 </ul>
             </section>
