@@ -17,6 +17,7 @@ Play Console 에 제출한 내용과 이 문서가 어긋나면 심사 반려·�
 | 앱 아이콘 | `public/images/*.png` | — | 512x512 PNG (RGBA) |
 | app-ads.txt | `public/app-ads.txt` | `/app-ads.txt` | **AdMob 게시자 인증** (키네틱코어) |
 | 키네틱코어 버전 | `public/kineticcore/version.json` | `/kineticcore/version.json` | **앱 업데이트 안내·강제** |
+| robots.txt | `public/robots.txt` | `/robots.txt` | AdMob 크롤러 명시 허용 |
 
 `ChildSafety` 는 Sync 한정 문서라 다른 앱을 추가해도 손댈 필요가 없다.
 푸터 링크에서는 주석 처리되어 있고 `/child-safety` 로 직접 접근한다.
@@ -132,6 +133,19 @@ AdMob 콘솔 `앱 > 앱 설정 > app-ads.txt` 에서 크롤링 상태를 볼 수
 폼이 실제로 안 뜬다. 방침에 "동의를 요청합니다" 라고 먼저 적으면 그것도 거짓 기재가 되므로
 **메시지를 만든 뒤에 한 문장을 추가할 것.**
 
+
+### robots.txt — SPA 라우팅이 크롤러를 속인다
+
+`vercel.json` 이 모든 경로를 `index.html` 로 rewrite 하므로, **파일이 없으면
+`/robots.txt` 요청에 HTML 이 200 으로 돌아간다.** 크롤러가 robots 규칙을 못 읽는다.
+AdMob 이 `app-ads.txt` 인증에 실패하는 원인 중 하나로 문서에 적혀 있는 항목이다.
+
+```
+User-agent: Google-adstxt
+Disallow:
+```
+
+**정적 파일을 두면 Vercel 이 rewrite 보다 먼저 그걸 준다.** `app-ads.txt` 와 같은 원리다.
 
 ### 키네틱코어 version.json — 앱을 세울 수 있는 스위치
 

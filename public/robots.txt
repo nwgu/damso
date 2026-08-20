@@ -1,0 +1,10 @@
+# AdMob app-ads.txt 크롤러. 명시하지 않으면 SPA rewrite 때문에
+# robots.txt 요청에 index.html 이 돌아가서 크롤러가 헷갈린다.
+User-agent: Google-adstxt
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Allow: /
