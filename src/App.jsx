@@ -2,6 +2,10 @@ import AppCard from './components/AppCard';
 import Layout from './components/Layout';
 import appsData from './data/apps.json';
 
+// 최근에 낸 앱이 위로. apps.json 은 추가 순서(id 오름차순)를 유지하고
+// 화면에서만 뒤집는다 — 파일을 손으로 재정렬하면 새 앱을 추가할 때마다 헷갈린다.
+const sortedApps = [...appsData].sort((a, b) => b.id - a.id);
+
 function App() {
   return (
     <Layout>
@@ -28,7 +32,7 @@ function App() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {appsData.map((app) => (
+            {sortedApps.map((app) => (
               <AppCard key={app.id} app={app} />
             ))}
           </div>
