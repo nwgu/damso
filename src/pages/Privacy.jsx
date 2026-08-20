@@ -82,7 +82,9 @@ function PrivacyKo() {
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
                         이용자는 기기의 [설정 &gt; 개인정보 보호 &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있습니다.
-                        이 앱은 만 13세 미만 아동을 대상으로 하지 않습니다.
+                        유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
+                        동의한 뒤에도 게임 내 [일시정지 &gt; 광고 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
+                        이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                     </li>
                 </ul>
             </section>
@@ -180,7 +182,10 @@ function PrivacyEn() {
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">How Google uses information from partner sites</a>.
                         Users may reset or delete the advertising identifier under [Settings &gt; Privacy &gt; Ads] on their device.
-                        This app is not directed to children under 13.
+                        Users in the European Economic Area, the United Kingdom, and Switzerland are asked for consent to personalized advertising through
+                        Google's User Messaging Platform (UMP), and may change those settings or withdraw consent at any time from
+                        [Pause &gt; Ad Privacy Settings] inside the game.
+                        This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                     </li>
                 </ul>
             </section>
