@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 20일' : 'Effective Date: August 20, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 31일' : 'Effective Date: August 31, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -82,6 +82,9 @@ function PrivacyKo() {
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
                         이용자는 기기의 [설정 &gt; 개인정보 보호 &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있습니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스를 통해 익명 이용 통계(플레이 시간, 판이 끝난 사유, 선택한 강화 항목, 도움말 열람 등)가 수집됩니다.
+                        이 통계는 앱 설치 시 생성되는 무작위 식별자로만 구분되며 광고 식별자나 개인을 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정 등 서비스 개선에 한정됩니다.
+                        앱을 삭제하면 해당 식별자도 함께 삭제됩니다.
                         유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
                         동의한 뒤에도 게임 내 [일시정지 &gt; 광고 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
@@ -106,6 +109,10 @@ function PrivacyKo() {
                     <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
                     <li>키네틱코어(KineticCore)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
+                <p className="mt-3">
+                    한편 키네틱코어(KineticCore)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
+                </p>
             </section>
 
             <section>
@@ -131,7 +138,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2026년 8월 20일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2026년 8월 31일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -182,6 +189,9 @@ function PrivacyEn() {
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">How Google uses information from partner sites</a>.
                         Users may reset or delete the advertising identifier under [Settings &gt; Privacy &gt; Ads] on their device.
+                        * For service improvement, anonymous usage statistics (play time, how a run ended, upgrades selected, help screen views, and similar) are collected through Google Analytics.
+                        These statistics are distinguished only by a random identifier generated at app installation, contain no advertising identifier or directly identifying information, and are used solely to improve the service, such as tuning game difficulty.
+                        The identifier is deleted when the app is uninstalled.
                         Users in the European Economic Area, the United Kingdom, and Switzerland are asked for consent to personalized advertising through
                         Google's User Messaging Platform (UMP), and may change those settings or withdraw consent at any time from
                         [Pause &gt; Ad Privacy Settings] inside the game.
@@ -207,6 +217,10 @@ function PrivacyEn() {
                     <li>When required by law or when requested by investigative agencies following legal procedures</li>
                     <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore</li>
                 </ul>
+                <p className="mt-3">
+                    Separately, usage statistics analysis for KineticCore is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
+                </p>
             </section>
 
             <section>
@@ -232,7 +246,7 @@ function PrivacyEn() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. Changes to Privacy Policy</h2>
-                <p>This Privacy Policy is effective from August 20, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
+                <p>This Privacy Policy is effective from August 31, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
             </section>
         </div>
     );
