@@ -1,56 +1,65 @@
 [
-    {
-        "id": 1,
-        "name": "끄적이",
-        "category": "생산성",
-        "description": "메모장, 노트, 간편 기록",
-        "icon": "끄적이.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.kkeujeogiapp"
-    },
-    {
-        "id": 2,
-        "name": "찍먹",
-        "category": "도구",
-        "description": "랜덤 룰렛, 빠른 선택",
-        "icon": "찍먹.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.damso.jjikmeokapp"
-    },
-    {
-        "id": 3,
-        "name": "until.",
-        "category": "라이프스타일",
-        "description": "기념일 디데이 위젯 & 카운트다운",
-        "icon": "until.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.damso.untilapp"
-    },
-    {
-        "id": 4,
-        "name": "Sync",
-        "category": "라이프스타일",
-        "description": "커플 캘린더",
-        "icon": "sync.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.damso.SyncApp"
-    },
-    {
-        "id": 5,
-        "name": "기사도",
-        "category": "교육",
-        "description": "2026 정보처리기사 AI 기출문제 풀이 & 오답 분석",
-        "icon": "gisado.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.damso.gisadoapp"
-    },
-    {
-        "id": 6,
-        "name": "키네틱코어",
-        "category": "게임",
-        "description": "이동만 하면 공격은 전자동. 무기를 진화시켜 15분 안에 최종 보스를 잡는 탄막 로그라이크",
-        "icon": "kineticcore.png",
-        "appStore": "",
-        "playStore": "https://play.google.com/store/apps/details?id=com.damso.kineticcore"
-    }
+  {
+    "id": 1,
+    "name": "끄적이",
+    "category": "생산성",
+    "description": "메모장, 노트, 간편 기록",
+    "icon": "끄적이.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.kkeujeogiapp"
+  },
+  {
+    "id": 2,
+    "name": "찍먹",
+    "category": "도구",
+    "description": "랜덤 룰렛, 빠른 선택",
+    "icon": "찍먹.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.jjikmeokapp"
+  },
+  {
+    "id": 3,
+    "name": "until.",
+    "category": "라이프스타일",
+    "description": "기념일 디데이 위젯 & 카운트다운",
+    "icon": "until.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.untilapp"
+  },
+  {
+    "id": 4,
+    "name": "Sync",
+    "category": "라이프스타일",
+    "description": "커플 캘린더",
+    "icon": "sync.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.SyncApp"
+  },
+  {
+    "id": 5,
+    "name": "기사도",
+    "category": "교육",
+    "description": "2026 정보처리기사 AI 기출문제 풀이 & 오답 분석",
+    "icon": "gisado.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.gisadoapp"
+  },
+  {
+    "id": 6,
+    "name": "키네틱코어",
+    "category": "게임",
+    "description": "이동만 하면 공격은 전자동. 무기를 진화시켜 15분 안에 최종 보스를 잡는 탄막 로그라이크",
+    "icon": "kineticcore.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.kineticcore"
+  },
+  {
+    "id": 7,
+    "name": "건라인",
+    "category": "게임",
+    "description": "달리며 자동으로 쏜다. 1,500m 끝의 보스까지 점프와 지형으로 살아남는 런앤건",
+    "icon": "gunline.png",
+    "appStore": "",
+    "playStore": ""
+  }
 ]

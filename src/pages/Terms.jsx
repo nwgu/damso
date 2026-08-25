@@ -43,7 +43,7 @@ function TermsKo() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">제1조 (목적)</h2>
                 {/* [수정됨] Until 추가 */}
-                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이, 찍먹, Until, Sync, 기사도, 키네틱코어 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
+                <p>본 약관은 담소(이하 "회사")가 제공하는 모든 모바일 앱 서비스(끄적이, 찍먹, Until, Sync, 기사도, 키네틱코어, 건라인 등 이하 "서비스")의 이용과 관련하여 회사와 회원 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
             </section>
 
             <section>
@@ -126,7 +126,7 @@ function TermsEn() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 1 (Purpose)</h2>
                 {/* [Added] Until */}
-                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, Sync, Gisado, KineticCore, hereinafter "Service").</p>            </section>
+                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, Sync, Gisado, KineticCore, Gunline, hereinafter "Service").</p>            </section>
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 2 (Definitions)</h2>
