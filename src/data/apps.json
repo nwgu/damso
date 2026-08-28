@@ -61,5 +61,14 @@
     "icon": "gunline.png",
     "appStore": "",
     "playStore": ""
+  },
+  {
+    "id": 8,
+    "name": "집지키기",
+    "category": "게임",
+    "description": "밤마다 언데드가 길로 내려온다. 길가에 구조물을 세워 오두막을 지키는 타워 디펜스",
+    "icon": "homekeep.png",
+    "appStore": "",
+    "playStore": ""
   }
 ]
