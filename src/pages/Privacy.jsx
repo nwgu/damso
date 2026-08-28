@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 28일' : 'Effective Date: August 28, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 29일' : 'Effective Date: August 29, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -109,7 +109,7 @@ function PrivacyKo() {
                         <span className="font-medium text-zinc-900">집지키기(HomeKeep):</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
                         게임 기록(최고 도달한 밤, 클리어 횟수와 최단 기록, 보유 재화, 강화 상태, 해금 목록, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
-                        ※ 이 앱에는 Google AdMob 광고 SDK 가 포함되어 있으며, 앱을 실행하면 초기화되는 과정에서 Google 및 광고 파트너가 광고 식별자(AAID), IP 주소에 기반한 대략적인 위치,
+                        ※ 이 앱은 Google AdMob 을 통해 보상형 광고(오두막이 무너진 뒤 이어하기)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(AAID), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
@@ -170,7 +170,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2026년 8월 28일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2026년 8월 29일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -250,7 +250,7 @@ function PrivacyEn() {
                         <span className="font-medium text-zinc-900">HomeKeep:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
                         Game records (furthest night reached, clear count and best clear time, in-game currency, upgrade state, unlock list, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
-                        * This app includes the Google AdMob advertising SDK. When the app starts and the SDK initializes, Google and its advertising partners may collect and use the advertising identifier (AAID),
+                        * This app serves rewarded ads (continue after the cabin falls) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
