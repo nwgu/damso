@@ -3,7 +3,11 @@ function AppCard({ app }) {
         <div className="group relative bg-white rounded-3xl p-6 border border-zinc-100 shadow-sm hover:shadow-xl hover:shadow-zinc-200/50 hover:-translate-y-1 transition-all duration-300 ease-out flex flex-col h-full">
             {/* Header: Icon & Title */}
             <div className="flex items-start gap-5 mb-5">
-                <div className="relative overflow-hidden rounded-2xl border border-zinc-100 shadow-inner">
+                <div
+                    className="relative overflow-hidden rounded-2xl border border-zinc-100 shadow-inner motion-safe:animate-breathe"
+                    // 카드마다 시작점을 어긋나게 — 8개가 한꺼번에 뛰면 심장박동처럼 보인다
+                    style={{ animationDelay: `${(app.id % 4) * 0.5}s` }}
+                >
                     <img
                         src={`/images/${app.icon}`}
                         alt={app.name}
