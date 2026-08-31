@@ -121,6 +121,22 @@ function PrivacyKo() {
                         동의한 뒤에도 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 맞춤 광고를 해제할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                     </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">신전으로(To the Sanctum):</span>
+                        회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
+                        게임 기록(최고 도달 층, 클리어 횟수, 도감에서 만나고 잡은 몬스터, 보유 재화, 강화 상태, 승급 단계, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        ※ 이 앱은 Google AdMob 을 통해 보상형 광고(전멸 후 이어하기, 판이 끝난 뒤 골드 2배)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(AAID), IP 주소에 기반한 대략적인 위치,
+                        광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
+                        자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
+                        이용자는 기기의 [설정 &gt; 개인정보 보호 &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있습니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스를 통해 익명 이용 통계(도달한 층, 판이 끝난 사유, 고른 길과 보상, 포획 성공 여부, 상점 구매 등)가 수집됩니다.
+                        이 통계는 앱 설치 시 생성되는 무작위 식별자로만 구분되며 광고 식별자나 개인을 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정 등 서비스 개선에 한정됩니다.
+                        앱을 삭제하면 해당 식별자도 함께 삭제됩니다.
+                        유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
+                        동의한 뒤에도 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 맞춤 광고를 해제할 수 있습니다.
+                        이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
+                    </li>
                 </ul>
             </section>
 
@@ -139,10 +155,10 @@ function PrivacyKo() {
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                     <li>이용자가 사전에 동의한 경우</li>
                     <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
-                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
+                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
-                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
                     이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
                 </p>
             </section>

@@ -70,5 +70,14 @@
     "icon": "homekeep.png",
     "appStore": "",
     "playStore": "https://play.google.com/store/apps/details?id=com.damso.homekeep"
+  },
+  {
+    "id": 9,
+    "name": "신전으로",
+    "category": "게임",
+    "description": "층을 하나씩 내려가며 턴제로 싸우고, 마음에 드는 적은 잡아서 내 팀으로 만든다. 전멸하면 처음부터, 잡은 것은 도감에 남는 몬스터 수집 로그라이크",
+    "icon": "sanctum.png",
+    "appStore": "",
+    "playStore": ""
   }
 ]
