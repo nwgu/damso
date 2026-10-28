@@ -138,7 +138,7 @@ public/
 vercel.json            SPA rewrite — /(.*) -> /index.html
 ```
 
-## 앱 현황 (2026-08-29)
+## 앱 현황 (2026-10-28)
 
 | 앱 | 분류 | Play | 비고 |
 |---|---|---|---|
@@ -146,5 +146,8 @@ vercel.json            SPA rewrite — /(.*) -> /index.html
 | 키네틱코어 | 게임 | 게시 | 광고 인증 통과 |
 | **건라인** | 게임 | **2026-08-29 게시** | **app-ads.txt 인증 대기 중** |
 | 집지키기 | 게임 | 게시 | |
+| 신전으로 | 게임 | 미게시 (Coming Soon) | |
+| **우가펫** | 게임 | 게시 | ⚠ 방침·약관은 **`woogapet.com`** 이 따로 있다 — 이 레포의 `Privacy`·`Terms` 에 안 넣었다 (2026-10-28) |
+| **우가펫 서바이벌** | 게임 | 게시 | 같다 — `woogapet.com/survival/privacy/` · 아이콘은 Play 스토어 페이지에서 받았다 |
 
 iOS 는 아직 하나도 없다 (`appStore` 가 전부 빈 문자열).

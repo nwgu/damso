@@ -79,5 +79,23 @@
     "icon": "sanctum.png",
     "appStore": "",
     "playStore": ""
+  },
+  {
+    "id": 10,
+    "name": "우가펫",
+    "category": "게임",
+    "description": "별에서 떨어진 짐승을 길들인다. 붙잡고 키워 함께 싸우는 온라인 클래식 턴제 RPG",
+    "icon": "woogapet.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.woogapet"
+  },
+  {
+    "id": 11,
+    "name": "우가펫 서바이벌",
+    "category": "게임",
+    "description": "한 손으로 끌기만 하면 사우로스가 짐승 떼를 쓸어 버린다. 키우고, 뽑고, 다시 출격하는 서바이벌",
+    "icon": "woogapet-survival.png",
+    "appStore": "",
+    "playStore": "https://play.google.com/store/apps/details?id=com.damso.woogapet.survival"
   }
 ]
