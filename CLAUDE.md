@@ -76,9 +76,9 @@ public/<앱>/version.json     {"latest": <version code>, "message": ""}
 
 | 앱 | latest |
 |---|---|
-| `kineticcore` | 4 |
-| `homekeep` | 2 |
-| `gunline` | 2 |
+| `kineticcore` | 6 |
+| `homekeep` | 6 |
+| `gunline` | 4 |
 
 ### ⚠ 올리는 순서가 정해져 있다
 
