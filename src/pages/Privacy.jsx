@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 8월 29일' : 'Effective Date: August 29, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 10일' : 'Effective Date: November 10, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -137,6 +137,20 @@ function PrivacyKo() {
                         동의한 뒤에도 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 맞춤 광고를 해제할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                     </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">트위스트 잼(Twist Jam):</span>
+                        회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
+                        게임 기록(도달한 레벨, 보유 코인과 도구, 빵집 꾸미기 단계, 광고 제거 구매 여부, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        ※ 이 앱은 Google AdMob 을 통해 보상형 광고(이어하기, 도구 받기, 코인 2배)와 레벨 사이 전면 광고를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(IDFA·AAID), IP 주소에 기반한 대략적인 위치,
+                        광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
+                        iOS 에서는 앱 추적 투명성(ATT) 요청에 허용한 경우에만 광고 식별자가 사용되며, 허용하지 않아도 게임은 그대로 이용할 수 있고 기기의 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다.
+                        자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
+                        ※ 인앱 결제는 Apple App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않고 구매 내역을 회사 서버에 저장하지 않습니다.
+                        유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
+                        동의한 뒤에도 게임 내 [설정 &gt; 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
+                        이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
+                    </li>
                 </ul>
             </section>
 
@@ -155,7 +169,7 @@ function PrivacyKo() {
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                     <li>이용자가 사전에 동의한 경우</li>
                     <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
-                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
+                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
                     한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
@@ -186,7 +200,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2026년 8월 29일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2026년 11월 10일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -279,6 +293,37 @@ function PrivacyEn() {
                         [Settings &gt; Google &gt; Ads] on their device.
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                     </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">To the Sanctum:</span>
+                        No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
+                        Game records (deepest floor reached, clear count, monsters met and caught in the bestiary, in-game currency, upgrade state, rank, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
+                        * This app serves rewarded ads (continue after a wipe, double gold after a run) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID),
+                        approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
+                        For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
+                        Users can reset or delete the advertising identifier under [Settings &gt; Privacy &gt; Ads] on their device.
+                        * To improve the service, anonymous usage statistics (floor reached, how a run ended, paths and rewards chosen, capture results, shop purchases, and similar) are collected through Google Analytics.
+                        These statistics are distinguished only by a random identifier generated at install time, contain no advertising identifier or personally identifying information, and are used solely for service improvement such as difficulty tuning.
+                        Uninstalling the app also deletes that identifier.
+                        Users in the European Economic Area (EEA), the United Kingdom, and Switzerland are asked for consent regarding ad personalization through
+                        Google's User Messaging Platform (UMP), and may reset the advertising identifier or turn off personalized ads at any time under [Settings &gt; Google &gt; Ads] on their device.
+                        This app is not directed to children under 13, and ad content is limited to a teen rating or below.
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">Twist Jam:</span>
+                        No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
+                        Game records (level reached, coins and tools held, bakery decoration stages, whether ad removal was purchased, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
+                        * This app serves rewarded ads (continue, receive tools, double coins) and interstitial ads between levels through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (IDFA/AAID),
+                        approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
+                        On iOS, the advertising identifier is used only if the user allows the App Tracking Transparency (ATT) request; the game can be played without allowing it, and the choice can be changed at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking] on the device.
+                        For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
+                        * In-app purchases are processed by Apple App Store payments. The Company does not receive payment information such as payment methods and does not store purchase history on its servers.
+                        Users in the European Economic Area (EEA), the United Kingdom, and Switzerland are asked for consent regarding ad personalization through
+                        Google's User Messaging Platform (UMP), and may change those settings or withdraw consent at any time from
+                        [Settings &gt; Privacy Settings] inside the game.
+                        This app is not directed to children under 13, and ad content is limited to a teen rating or below.
+                    </li>
                 </ul>
             </section>
 
@@ -297,10 +342,10 @@ function PrivacyEn() {
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                     <li>When the user has given prior consent</li>
                     <li>When required by law or when requested by investigative agencies following legal procedures</li>
-                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, and HomeKeep</li>
+                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, and Twist Jam</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, and HomeKeep is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, and To the Sanctum is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
@@ -328,7 +373,7 @@ function PrivacyEn() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. Changes to Privacy Policy</h2>
-                <p>This Privacy Policy is effective from August 25, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
+                <p>This Privacy Policy is effective from November 10, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
             </section>
         </div>
     );

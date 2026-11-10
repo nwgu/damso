@@ -97,5 +97,14 @@
     "icon": "woogapet-survival.png",
     "appStore": "",
     "playStore": "https://play.google.com/store/apps/details?id=com.damso.woogapet.survival"
+  },
+  {
+    "id": 12,
+    "name": "Twist Jam",
+    "category": "게임",
+    "description": "엉킨 꽈배기를 톡 눌러 쏙 빼내고, 같은 맛 셋을 봉지에 모아 포장한다. 모은 코인으로 빵집을 꾸미는 퍼즐",
+    "icon": "twistjam.png",
+    "appStore": "",
+    "playStore": ""
   }
 ]
