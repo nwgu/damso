@@ -140,7 +140,7 @@ function PrivacyKo() {
                     <li>
                         <span className="font-medium text-zinc-900">트위스트 잼(Twist Jam):</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
-                        게임 기록(도달한 레벨, 보유 코인과 도구, 빵집 꾸미기 단계, 광고 제거 구매 여부, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        게임 기록(도달한 레벨, 보유 코인과 도구, 빵집 꾸미기 단계, 광고 제거 구매 여부, 설정)은 사용자 기기에 저장되며, iOS 에서 기기가 iCloud 에 로그인되어 있으면 사용자 본인의 iCloud 에도 백업되어 다른 기기에서 이어 할 수 있습니다. 이 기록은 회사 서버로 전송되지 않으며 회사는 사용자의 iCloud 에 접근할 수 없습니다.
                         ※ 이 앱은 Google AdMob 을 통해 보상형 광고(이어하기, 도구 받기, 코인 2배)와 레벨 사이 전면 광고를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(IDFA·AAID), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
                         iOS 에서는 앱 추적 투명성(ATT) 요청에 허용한 경우에만 광고 식별자가 사용되며, 허용하지 않아도 게임은 그대로 이용할 수 있고 기기의 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다.
@@ -151,6 +151,7 @@ function PrivacyKo() {
                         동의한 뒤에도 게임 내 [설정 &gt; 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                         ※ 서비스 개선을 위해 Google 애널리틱스를 통해 익명 이용 통계(앱 실행, 시작·성공·실패한 레벨과 실패 사유, 이어하기, 빵집 꾸미기 구매, 보상형 광고 시청, 상점 구매 상품)가 수집됩니다. 광고 식별자가 아닌 앱이 만든 무작위 식별자를 사용합니다.
+                        ※ 결제 확인: iOS 에서 상품을 구매하면 거래 번호와, 구매를 기기에 묶기 위해 앱이 만든 무작위 값이 회사의 확인 서버를 거쳐 Apple 에 전달되어 구매가 실제로 완료되었는지, 이후 환불되었는지 확인하며, 환불된 구매로 지급한 상품은 회수합니다. 이 정보는 확인 서버에 저장되지 않습니다. 이용자가 Apple 에 환불을 요청하면 Apple 의 요청에 따라 해당 구매의 상품 지급 여부와 회사의 의견을 Apple 에 회신할 수 있습니다(진행 기록과 사용량은 회신하지 않습니다).
                     </li>
                 </ul>
             </section>
@@ -313,7 +314,7 @@ function PrivacyEn() {
                     <li>
                         <span className="font-medium text-zinc-900">Twist Jam:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
-                        Game records (level reached, coins and tools held, bakery decoration stages, whether ad removal was purchased, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
+                        Game records (level reached, coins and tools held, bakery decoration stages, whether ad removal was purchased, and settings) are stored on the user's device and, on iOS, also backed up to the user's own iCloud if the device is signed in, so play can continue on another device. These records are never transmitted to the Company's servers, and the Company cannot access the user's iCloud.
                         * This app serves rewarded ads (continue, receive tools, double coins) and interstitial ads between levels through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (IDFA/AAID),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
                         On iOS, the advertising identifier is used only if the user allows the App Tracking Transparency (ATT) request; the game can be played without allowing it, and the choice can be changed at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking] on the device.
@@ -325,6 +326,7 @@ function PrivacyEn() {
                         [Settings &gt; Privacy Settings] inside the game.
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                         * To improve the service, anonymous usage statistics (app launches, levels started, cleared and failed with the reason, continues, bakery decoration purchases, rewarded ad views, and shop products purchased) are collected through Google Analytics, using a random identifier created by the app rather than the advertising identifier.
+                        * Purchase verification: on iOS, when a product is purchased, the transaction ID and a random value created by the app to tie the purchase to the device pass through the Company's verification server to Apple to confirm the purchase was completed and whether it was later refunded; items granted for refunded purchases are taken back. This information is not stored on the verification server. If a user asks Apple for a refund, the Company may answer Apple's request with whether the item was delivered and the Company's opinion (play records and usage are not sent).
                     </li>
                 </ul>
             </section>
