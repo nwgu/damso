@@ -150,6 +150,7 @@ function PrivacyKo() {
                         유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
                         동의한 뒤에도 게임 내 [설정 &gt; 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스를 통해 익명 이용 통계(앱 실행, 시작·성공·실패한 레벨과 실패 사유, 이어하기, 빵집 꾸미기 구매, 보상형 광고 시청, 상점 구매 상품)가 수집됩니다. 광고 식별자가 아닌 앱이 만든 무작위 식별자를 사용합니다.
                     </li>
                 </ul>
             </section>
@@ -172,7 +173,7 @@ function PrivacyKo() {
                     <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
-                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
                     이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
                 </p>
             </section>
@@ -323,6 +324,7 @@ function PrivacyEn() {
                         Google's User Messaging Platform (UMP), and may change those settings or withdraw consent at any time from
                         [Settings &gt; Privacy Settings] inside the game.
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
+                        * To improve the service, anonymous usage statistics (app launches, levels started, cleared and failed with the reason, continues, bakery decoration purchases, rewarded ad views, and shop products purchased) are collected through Google Analytics, using a random identifier created by the app rather than the advertising identifier.
                     </li>
                 </ul>
             </section>
@@ -345,7 +347,7 @@ function PrivacyEn() {
                     <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, and Twist Jam</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, and To the Sanctum is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, and Twist Jam is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
