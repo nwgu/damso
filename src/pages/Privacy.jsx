@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 10일' : 'Effective Date: November 10, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 12일' : 'Effective Date: November 12, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -152,6 +152,20 @@ function PrivacyKo() {
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                         ※ 서비스 개선을 위해 Google 애널리틱스를 통해 익명 이용 통계(앱 실행, 시작·성공·실패한 레벨과 실패 사유, 이어하기, 빵집 꾸미기 구매, 보상형 광고 시청, 상점 구매 상품)가 수집됩니다. 광고 식별자가 아닌 앱이 만든 무작위 식별자를 사용합니다.
                         ※ 결제 확인: iOS 에서 상품을 구매하면 거래 번호와, 구매를 기기에 묶기 위해 앱이 만든 무작위 값이 회사의 확인 서버를 거쳐 Apple 에 전달되어 구매가 실제로 완료되었는지, 이후 환불되었는지 확인하며, 환불된 구매로 지급한 상품은 회수합니다. 이 정보는 확인 서버에 저장되지 않습니다. 이용자가 Apple 에 환불을 요청하면 Apple 의 요청에 따라 해당 구매의 상품 지급 여부와 회사의 의견을 Apple 에 회신할 수 있습니다(진행 기록과 사용량은 회신하지 않습니다).
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">하늘바다(Haneulbada):</span>
+                        회원가입이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
+                        이야기·전투·사냥은 기기에서 진행되고 진행 기록은 암호화되어 기기에 저장됩니다. 클라우드 저장·유료 상품·무기 강화·주간 순위를 위해 게임이 회사 서버에 연결되면 다음 정보가 처리됩니다.
+                        ① 게임 계정: 서버가 발급한 무작위 계정 식별자(서버에는 해시로만 보관) ② 계정 연동(선택): 이용자가 Google 계정 연동을 선택한 경우 Google Play 게임즈 플레이어 식별자(이름·이메일은 받지 않습니다)
+                        ③ 클라우드 저장: 계정 키로 암호화된 진행 기록과 저장 시각, 주인공별 진행한 장과 레벨(회사는 진행 기록의 내용을 열어 보지 않습니다) ④ 서버 장부: 구매한 상품의 보유 내역, 무기 강화 단계와 실패 누적
+                        ⑤ 주간 순위: 주인공, 주간 보스 전투 기록(피해량)과 기록 시각 — 순위표에는 주인공 이름과 계정 식별자의 끝 4자리로만 표시됩니다 ⑥ 구매 기록: 상품, 구매 시각, Google Play 주문 번호와 구매 확인 정보(결제 수단 정보는 받지 않습니다)
+                        ⑦ 서비스 이용 기록: IP 주소, 접속 시각, 서버가 받은 요청의 기록.
+                        ※ 보유 기간: ①~⑤는 계정 삭제 시까지(삭제하면 지체 없이 파기), ⑥은 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 5년, ⑦은 부정 이용 확인과 이의 제기 대응을 위해 90일 뒤 자동 삭제됩니다. 기기의 진행 기록은 앱을 삭제하면 함께 삭제됩니다.
+                        ※ 이용 목적: 계정 식별과 다른 기기에서 이어 하기, 구매 확인과 지급(환불·취소된 구매로 지급한 상품은 회수), 무기 강화 결과의 결정과 기록, 주간 순위 집계와 비정상 기록 거르기, 비인가 프로그램·요청 폭주 등 부정 이용 방지.
+                        ※ 처리위탁: 게임 서버 운영과 데이터 보관은 Vultr Holdings, Inc.(대한민국 서울 리전 — 데이터는 국내에 보관), 인앱 결제 처리와 구매 확인 및 계정 연동 확인은 Google LLC(미국 등, 상품 구매·계정 연동 시)가 맡습니다.
+                        ※ 이 앱은 현재 광고와 이용 통계 도구를 사용하지 않으며 광고 식별자를 읽지 않습니다. 도입하는 경우 이 방침을 개정하여 미리 공지합니다.
+                        ※ 계정 삭제: 게임 안 [메뉴 &gt; 계정 &gt; 계정 삭제]에서 계정과 서버에 보관된 정보를 직접 삭제할 수 있습니다(<a href="/haneulbada/delete" className="underline hover:text-zinc-900">데이터 삭제 안내</a>). 이 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.
                     </li>
                 </ul>
             </section>
@@ -327,6 +341,20 @@ function PrivacyEn() {
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                         * To improve the service, anonymous usage statistics (app launches, levels started, cleared and failed with the reason, continues, bakery decoration purchases, rewarded ad views, and shop products purchased) are collected through Google Analytics, using a random identifier created by the app rather than the advertising identifier.
                         * Purchase verification: on iOS, when a product is purchased, the transaction ID and a random value created by the app to tie the purchase to the device pass through the Company's verification server to Apple to confirm the purchase was completed and whether it was later refunded; items granted for refunded purchases are taken back. This information is not stored on the verification server. If a user asks Apple for a refund, the Company may answer Apple's request with whether the item was delivered and the Company's opinion (play records and usage are not sent).
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">Haneulbada:</span>
+                        No sign-up is required, and no directly identifying information such as name, email address, or phone number is collected.
+                        Story, combat, and hunting run on the device, and play records are stored on the device in encrypted form. When the game connects to the Company's server for cloud save, paid items, weapon enhancement, or the weekly ranking, the following is processed:
+                        (1) Game account: a random account identifier issued by the server (stored on the server only as a hash) (2) Account link (optional): the Google Play Games player ID if the user chooses to link a Google account (no name or email is received)
+                        (3) Cloud save: play records encrypted with the account key, the save time, and the chapter and level reached per hero (the Company does not open the contents of play records) (4) Server ledger: paid items held, weapon enhancement level and accumulated failures
+                        (5) Weekly ranking: hero, weekly boss battle record (damage) and its time — the ranking shows only the hero name and the last four characters of the account identifier (6) Purchase records: product, purchase time, Google Play order number and purchase verification data (no payment method information is received)
+                        (7) Service logs: IP address, connection time, and a record of requests received by the server.
+                        * Retention: (1)–(5) until the account is deleted (destroyed without delay upon deletion); (6) five years under the Act on the Consumer Protection in Electronic Commerce; (7) automatically deleted after 90 days, kept to investigate misuse and handle appeals. Play records on the device are deleted with the app.
+                        * Purposes: identifying the account and continuing on another device, verifying and delivering purchases (items granted for refunded or cancelled purchases are taken back), deciding and recording weapon enhancement results, compiling the weekly ranking and filtering abnormal records, and preventing misuse such as unauthorized programs or request flooding.
+                        * Entrusted processing: game server operation and data storage by Vultr Holdings, Inc. (Seoul, Republic of Korea region — data is stored in Korea); in-app payment processing, purchase verification, and account link verification by Google LLC (United States and elsewhere, when purchasing or linking).
+                        * This app currently uses no advertising or analytics tools and does not read the advertising identifier. If they are introduced, this policy will be revised and announced in advance.
+                        * Account deletion: the account and the information stored on the server can be deleted directly in the game under [Menu &gt; Account &gt; Delete account] (<a href="/haneulbada/delete" className="underline hover:text-zinc-900">data deletion guide</a>). This app is not directed to children under 14.
                     </li>
                 </ul>
             </section>

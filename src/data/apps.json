@@ -86,7 +86,7 @@
     "category": "게임",
     "description": "별에서 떨어진 짐승을 길들인다. 붙잡고 키워 함께 싸우는 온라인 클래식 턴제 RPG",
     "icon": "woogapet.png",
-    "appStore": "",
+    "appStore": "https://apps.apple.com/app/id6828731564",
     "playStore": "https://play.google.com/store/apps/details?id=com.damso.woogapet"
   },
   {
@@ -95,7 +95,7 @@
     "category": "게임",
     "description": "한 손으로 끌기만 하면 사우로스가 짐승 떼를 쓸어 버린다. 키우고, 뽑고, 다시 출격하는 서바이벌",
     "icon": "woogapet-survival.png",
-    "appStore": "",
+    "appStore": "https://apps.apple.com/app/id6830022790",
     "playStore": "https://play.google.com/store/apps/details?id=com.damso.woogapet.survival"
   },
   {
@@ -104,6 +104,15 @@
     "category": "게임",
     "description": "엉킨 꽈배기를 톡 눌러 쏙 빼내고, 같은 맛 셋을 봉지에 모아 포장한다. 모은 코인으로 빵집을 꾸미는 퍼즐",
     "icon": "twistjam.png",
+    "appStore": "https://apps.apple.com/app/id6832845420",
+    "playStore": ""
+  },
+  {
+    "id": 13,
+    "name": "하늘바다",
+    "category": "게임",
+    "description": "수레꾼 카룬과 사제 미렐, 둘 중 한 명을 골라 시작하는 이야기 액션 RPG. 베고 피하고 필살기로 쓸어 버린다",
+    "icon": "haneulbada.png",
     "appStore": "",
     "playStore": ""
   }

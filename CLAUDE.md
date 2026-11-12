@@ -150,4 +150,4 @@ vercel.json            SPA rewrite — /(.*) -> /index.html
 | **우가펫** | 게임 | 게시 | ⚠ 방침·약관은 **`woogapet.com`** 이 따로 있다 — 이 레포의 `Privacy`·`Terms` 에 안 넣었다 (2026-10-28) |
 | **우가펫 서바이벌** | 게임 | 게시 | 같다 — `woogapet.com/survival/privacy/` · 아이콘은 Play 스토어 페이지에서 받았다 |
 
-iOS 는 아직 하나도 없다 (`appStore` 가 전부 빈 문자열).
+iOS 는 우가펫 · 우가펫 서바이벌 · Twist Jam 셋이 App Store 에 있다 (2026-11-12 `appStore` 에 `https://apps.apple.com/app/id<Apple ID>` 를 넣었다 — 주소는 각 프로젝트 STORE.md 의 Apple ID 로, 열어서 앱 이름까지 확인했다).
