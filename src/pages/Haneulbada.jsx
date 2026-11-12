@@ -55,7 +55,7 @@ export function HaneulbadaTerms() {
                     <section><H>제2조 (계정과 진행 기록)</H>
                         <UL>
                             <li>게임은 회원가입 없이 이용하며, 게임이 처음 서버에 연결될 때 회사가 무작위 계정을 발급합니다.</li>
-                            <li>진행 기록은 이용자의 기기에 저장되고, 저장 지점마다 서버에 사본(클라우드 저장)이 보관됩니다. 다른 기기에서 이어 하려면 게임 안에서 Google 계정 연동을 해야 합니다. 연동하지 않은 채 앱을 삭제하거나 기기를 바꾸면 기록과 구매한 상품을 되찾지 못할 수 있습니다.</li>
+                            <li>진행 기록은 이용자의 기기에 저장되고, 저장 지점마다 서버에 사본(클라우드 저장)이 보관됩니다. 다른 기기에서 이어 하려면 게임 안에서 계정 연동(Android 는 Google, iPhone 은 Apple)을 해야 합니다. 연동하지 않은 채 앱을 삭제하거나 기기를 바꾸면 기록과 구매한 상품을 되찾지 못할 수 있습니다.</li>
                             <li>구매한 상품, 무기 강화 단계, 주간 순위 기록은 서버에 보관되며, 서버의 기록을 기준으로 합니다.</li>
                         </UL></section>
                     <section><H>제3조 (이용자의 의무)</H>
@@ -69,14 +69,14 @@ export function HaneulbadaTerms() {
                         <p className="mt-2">위 행위가 서버 기록으로 확인되면 회사는 이용을 제한하고, 부정하게 얻은 재화·상품·순위 기록을 회수하거나 지울 수 있습니다. 이용자는 통지를 받은 날부터 15일 이내에 {MAIL} 로 이의를 신청할 수 있으며, 회사는 15일 이내에 답변합니다.</p></section>
                     <section><H>제4조 (유료 상품)</H>
                         <UL>
-                            <li>회사는 게임 안에서 코스튬, 보호 주문서, 소금(게임 재화), 가방 확장, 스킬 초기화권, 광고 제거 등의 상품을 판매할 수 있습니다. 상품의 구성과 가격은 게임 안 구매 화면에 표시되며, 결제는 Google Play 결제로 이루어집니다.</li>
-                            <li>코스튬과 광고 제거는 구매한 계정에 영구히 적용됩니다. 소금·보호 주문서·초기화권은 사용하면 소멸합니다.</li>
+                            <li>회사는 게임 안에서 코스튬, 보호 주문서, 소금(게임 재화), 가방 확장, 스킬 초기화권, 광고 제거 등의 상품을 판매할 수 있습니다. 상품의 구성과 가격은 게임 안 구매 화면에 표시되며, 결제는 Google Play 또는 App Store 결제로 이루어집니다.</li>
+                            <li>코스튬과 광고 제거는 구매한 계정에 영구히 적용됩니다. 소금·보호 주문서·초기화권은 사용하면 소멸합니다. iPhone 에서는 게임 안 [메뉴 &gt; 계정 &gt; 구매 복원]으로 코스튬과 광고 제거를 되찾을 수 있습니다.</li>
                         </UL></section>
                     <section><H>제5조 (청약철회와 환불)</H>
                         <UL>
                             <li>이용자는 구매일 또는 상품을 이용할 수 있게 된 날 중 늦은 날부터 <b>7일 이내</b>에 청약을 철회할 수 있습니다.</li>
                             <li>다만 이미 사용한 소금·보호 주문서·초기화권, 그리고 구매 즉시 적용되어 이용이 시작된 코스튬·광고 제거·가방 확장은 「전자상거래 등에서의 소비자보호에 관한 법률」 제17조 제2항에 따라 청약철회가 제한될 수 있습니다. 회사는 구매 화면에 이를 미리 표시합니다.</li>
-                            <li>환불은 결제가 이루어진 Google Play 의 환불 절차로 처리됩니다. 회사로 문의하신 경우에도 환불은 Google Play 를 통해 처리됩니다.</li>
+                            <li>환불은 결제가 이루어진 Google Play 또는 App Store 의 환불 절차로 처리됩니다. 회사로 문의하신 경우에도 환불은 그 플랫폼을 통해 처리됩니다.</li>
                             <li>미성년자가 법정대리인의 동의 없이 결제한 경우 미성년자 또는 법정대리인은 그 결제를 취소할 수 있습니다.</li>
                             <li>결제가 환불되거나 취소되면 회사는 그 결제로 지급한 상품을 회수합니다. 이미 사용한 재화는 보유량에서 차감되며, 보유량이 모자라면 0보다 적게 표시될 수 있습니다.</li>
                         </UL></section>
@@ -101,7 +101,7 @@ export function HaneulbadaTerms() {
                     <section><H>Article 2 (Account and Play Records)</H>
                         <UL>
                             <li>No sign-up is required; the Company issues a random account when the Game first connects to the server.</li>
-                            <li>Play records are stored on the user's device, and a copy (cloud save) is kept on the server at each save point. To continue on another device, the user must link a Google account in the Game. If the app is deleted or the device is changed without linking, records and purchased items may not be recoverable.</li>
+                            <li>Play records are stored on the user's device, and a copy (cloud save) is kept on the server at each save point. To continue on another device, the user must link an account in the Game (Google on Android, Apple on iPhone). If the app is deleted or the device is changed without linking, records and purchased items may not be recoverable.</li>
                             <li>Purchased items, weapon enhancement levels, and weekly ranking records are kept on the server, and the server's records prevail.</li>
                         </UL></section>
                     <section><H>Article 3 (User Obligations)</H>
@@ -115,14 +115,14 @@ export function HaneulbadaTerms() {
                         <p className="mt-2">If such conduct is confirmed by server records, the Company may restrict use and take back or delete improperly obtained currency, items, or ranking records. Users may appeal to {MAIL} within 15 days of notice, and the Company will respond within 15 days.</p></section>
                     <section><H>Article 4 (Paid Items)</H>
                         <UL>
-                            <li>The Company may sell items in the Game such as costumes, protection scrolls, salt (game currency), bag expansions, skill reset tickets, and ad removal. Contents and prices are shown on the in-game purchase screen, and payment is made through Google Play.</li>
-                            <li>Costumes and ad removal apply permanently to the purchasing account. Salt, protection scrolls, and reset tickets are consumed when used.</li>
+                            <li>The Company may sell items in the Game such as costumes, protection scrolls, salt (game currency), bag expansions, skill reset tickets, and ad removal. Contents and prices are shown on the in-game purchase screen, and payment is made through Google Play or the App Store.</li>
+                            <li>Costumes and ad removal apply permanently to the purchasing account. Salt, protection scrolls, and reset tickets are consumed when used. On iPhone, costumes and ad removal can be recovered with [Menu &gt; Account &gt; Restore purchases].</li>
                         </UL></section>
                     <section><H>Article 5 (Withdrawal and Refunds)</H>
                         <UL>
                             <li>Users may withdraw a purchase within <b>7 days</b> of the purchase date or the date the item became available, whichever is later.</li>
                             <li>However, withdrawal may be limited under Article 17(2) of the Act on the Consumer Protection in Electronic Commerce for salt, protection scrolls, or reset tickets already used, and for costumes, ad removal, and bag expansions that take effect immediately upon purchase. The Company indicates this on the purchase screen in advance.</li>
-                            <li>Refunds are handled through Google Play's refund process, including when the user contacts the Company.</li>
+                            <li>Refunds are handled through the refund process of Google Play or the App Store, wherever the payment was made, including when the user contacts the Company.</li>
                             <li>If a minor pays without the consent of a legal guardian, the minor or the guardian may cancel the payment.</li>
                             <li>If a payment is refunded or cancelled, the Company takes back the items granted for it. Currency already used is deducted from the balance, which may then show below zero.</li>
                         </UL></section>
@@ -153,8 +153,8 @@ export function HaneulbadaOdds() {
                 <>
                     <section>
                         <p>{lang === 'ko'
-                            ? '「게임산업진흥에 관한 법률」 제33조와 Google Play 정책에 따라 게임 "하늘바다"의 무기 강화 확률을 공개합니다. 같은 정보를 게임 안 대장장이의 「강화 > 확률 보기」에서도 확인하실 수 있습니다. 결과는 회사 서버가 정합니다.'
-                            : 'In accordance with Article 33 of the Game Industry Promotion Act and Google Play policy, the weapon enhancement odds of "Haneulbada" are published here. The same information is shown in the Game at the blacksmith under "Enhance > View odds". Results are decided by the Company\'s server.'}</p>
+                            ? '「게임산업진흥에 관한 법률」 제33조와 Google Play · App Store 정책에 따라 게임 "하늘바다"의 무기 강화 확률을 공개합니다. 같은 정보를 게임 안 대장장이의 「강화 > 확률 보기」에서도 확인하실 수 있습니다. 결과는 회사 서버가 정합니다.'
+                            : 'In accordance with Article 33 of the Game Industry Promotion Act and Google Play and App Store policies, the weapon enhancement odds of "Haneulbada" are published here. The same information is shown in the Game at the blacksmith under "Enhance > View odds". Results are decided by the Company\'s server.'}</p>
                     </section>
                     <section><H>{lang === 'ko' ? '무기 강화 (최대 +15)' : 'Weapon enhancement (up to +15)'}</H>
                         <div className="overflow-x-auto">
@@ -215,7 +215,7 @@ export function HaneulbadaDelete() {
                         <p>{MAIL} 로 「하늘바다 계정 삭제」를 보내 주십시오. 본인 확인을 위해 게임 안 계정 화면의 정보를 요청드릴 수 있습니다.</p></section>
                     <section><H>지워지는 것과 남는 것</H>
                         <UL>
-                            <li><b>바로 지워짐:</b> 계정, Google 연동 정보, 클라우드 저장, 구매한 상품과 재화, 무기 강화 단계, 주간 순위 기록</li>
+                            <li><b>바로 지워짐:</b> 계정, Google · Apple 연동 정보, 클라우드 저장, 구매한 상품과 재화, 무기 강화 단계, 주간 순위 기록</li>
                             <li><b>90일 뒤 자동 삭제:</b> 서비스 이용 기록(IP 주소 포함) — 부정 이용 확인과 이의 제기 대응용</li>
                             <li><b>5년 보관:</b> 구매 기록 — 「전자상거래 등에서의 소비자보호에 관한 법률」에 따른 보존 의무</li>
                             <li>기기에 남은 진행 기록은 앱을 삭제하면 함께 지워집니다.</li>
@@ -236,7 +236,7 @@ export function HaneulbadaDelete() {
                         <p>Send "Haneulbada account deletion" to {MAIL}. We may ask for information from the in-game account screen to confirm it is you.</p></section>
                     <section><H>What is deleted and what is kept</H>
                         <UL>
-                            <li><b>Deleted immediately:</b> account, Google link, cloud save, purchased items and currency, weapon enhancement levels, weekly ranking records</li>
+                            <li><b>Deleted immediately:</b> account, Google or Apple link, cloud save, purchased items and currency, weapon enhancement levels, weekly ranking records</li>
                             <li><b>Deleted automatically after 90 days:</b> service logs (including IP address) — kept to investigate misuse and handle appeals</li>
                             <li><b>Kept for 5 years:</b> purchase records — required by the Act on the Consumer Protection in Electronic Commerce</li>
                             <li>Play records on the device are deleted when the app is deleted.</li>
