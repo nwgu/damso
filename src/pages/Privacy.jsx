@@ -157,7 +157,16 @@ function PrivacyKo() {
                         <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
                         게임 기록(가진 동물과 레벨, 스테이지 별, 보유 열매, 출석·임무 진행, 오늘의 도전 기록, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
-                        이 앱은 인터넷에 연결하지 않으며 광고, 이용 통계 도구, 인앱 결제를 사용하지 않습니다.
+                        ※ 이 앱은 Google AdMob 을 통해 광고를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(AAID), IP 주소에 기반한 대략적인 위치,
+                        광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
+                        자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
+                        이용자는 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있습니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스를 통해 이용 통계(앱 실행, 진행한 스테이지와 결과, 알 부화, 상점 이용, 비정상 종료와 진단 정보 등)가 수집됩니다.
+                        이 통계는 앱 설치 시 생성되는 식별자로 구분되며 이름·이메일 등 개인을 직접 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정과 오류 수정 등 서비스 개선에 한정됩니다.
+                        ※ 인앱 결제는 Google Play 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않습니다.
+                        유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청합니다.
+                        이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
                     </li>
                     <li>
                         <span className="font-medium text-zinc-900">하늘바다(Haneulbada):</span>
@@ -195,10 +204,10 @@ function PrivacyKo() {
                     <li>이용자가 사전에 동의한 경우</li>
                     <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
                     <li>하늘바다(Haneulbada)에서 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소한 경우, 해당 플랫폼(Apple Inc. · Google LLC)의 요청에 따라 그 구매의 상품 지급 여부와 사용 비율을 회신하기 위해 제공되는 경우</li>
-                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
+                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
-                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·뽀꼬삐 원정대의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
                     이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
                 </p>
             </section>
@@ -356,7 +365,16 @@ function PrivacyEn() {
                         <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
                         Game records (animals owned and their levels, stage stars, fruit held, attendance and mission progress, daily challenge records, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
-                        This app does not connect to the internet and does not use ads, usage analytics tools, or in-app purchases.
+                        * This app serves ads through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID),
+                        approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
+                        For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
+                        Users can reset or delete the advertising identifier under [Settings &gt; Google &gt; Ads] on their device.
+                        * To improve the service, usage statistics (app launches, stages played and their results, egg hatching, shop use, crash and diagnostic information, and similar) are collected through Google Analytics.
+                        These statistics are distinguished by an identifier generated at install time, contain no directly identifying information such as name or email address, and are used solely for service improvement such as difficulty tuning and bug fixing.
+                        * In-app purchases are processed by Google Play billing. The Company does not receive payment information such as payment methods.
+                        Users in the European Economic Area (EEA), the United Kingdom, and Switzerland are asked for consent regarding ad personalization through Google's User Messaging Platform (UMP).
+                        This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                     </li>
                     <li>
                         <span className="font-medium text-zinc-900">Haneulbada:</span>
@@ -394,10 +412,10 @@ function PrivacyEn() {
                     <li>When the user has given prior consent</li>
                     <li>When required by law or when requested by investigative agencies following legal procedures</li>
                     <li>When, in Haneulbada, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the share used are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
-                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, and Haneulbada</li>
+                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and 뽀꼬삐 원정대</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, and Twist Jam is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, and 뽀꼬삐 원정대 is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
