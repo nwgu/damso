@@ -154,6 +154,12 @@ function PrivacyKo() {
                         ※ 결제 확인: iOS 에서 상품을 구매하면 거래 번호와, 구매를 기기에 묶기 위해 앱이 만든 무작위 값이 회사의 확인 서버를 거쳐 Apple 에 전달되어 구매가 실제로 완료되었는지, 이후 환불되었는지 확인하며, 환불된 구매로 지급한 상품은 회수합니다. 이 정보는 확인 서버에 저장되지 않습니다. 이용자가 Apple 에 환불을 요청하면 Apple 의 요청에 따라 해당 구매의 상품 지급 여부와 회사의 의견을 Apple 에 회신할 수 있습니다(진행 기록과 사용량은 회신하지 않습니다).
                     </li>
                     <li>
+                        <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
+                        회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
+                        게임 기록(가진 동물과 레벨, 스테이지 별, 보유 열매, 출석·임무 진행, 오늘의 도전 기록, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        이 앱은 인터넷에 연결하지 않으며 광고, 이용 통계 도구, 인앱 결제를 사용하지 않습니다.
+                    </li>
+                    <li>
                         <span className="font-medium text-zinc-900">하늘바다(Haneulbada):</span>
                         회원가입이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
                         이야기·전투·사냥은 기기에서 진행되고 진행 기록은 암호화되어 기기에 저장됩니다. 클라우드 저장·유료 상품·무기 강화·주간 순위를 위해 게임이 회사 서버에 연결되면 다음 정보가 처리됩니다.
@@ -345,6 +351,12 @@ function PrivacyEn() {
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
                         * To improve the service, anonymous usage statistics (app launches, levels started, cleared and failed with the reason, continues, bakery decoration purchases, rewarded ad views, and shop products purchased) are collected through Google Analytics, using a random identifier created by the app rather than the advertising identifier.
                         * Purchase verification: on iOS, when a product is purchased, the transaction ID and a random value created by the app to tie the purchase to the device pass through the Company's verification server to Apple to confirm the purchase was completed and whether it was later refunded; items granted for refunded purchases are taken back. This information is not stored on the verification server. If a user asks Apple for a refund, the Company may answer Apple's request with whether the item was delivered and the Company's opinion (play records and usage are not sent).
+                    </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
+                        No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
+                        Game records (animals owned and their levels, stage stars, fruit held, attendance and mission progress, daily challenge records, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
+                        This app does not connect to the internet and does not use ads, usage analytics tools, or in-app purchases.
                     </li>
                     <li>
                         <span className="font-medium text-zinc-900">Haneulbada:</span>
