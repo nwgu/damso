@@ -182,7 +182,9 @@ function PrivacyKo() {
                         ※ 환불 요청 회신: 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소하면, 해당 플랫폼의 요청에 따라 그 구매의 상품 지급 여부와 사용 비율(지급한 수량 중 사용한 비율)을 해당 플랫폼에 회신합니다. 진행 기록은 회신하지 않습니다.
                         ※ 이 앱은 Google AdMob 을 통해 보상형 광고(쓰러진 뒤 이어하기, 상자 한 번 더, 의뢰 보상 2배)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(IDFA·AAID), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
-                        iOS 에서는 앱 추적 투명성(ATT) 요청에 허용한 경우에만 광고 식별자가 사용되며, 허용하지 않아도 게임은 그대로 이용할 수 있고 기기의 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다. 광고 제거 상품을 구매하면 광고 없이 같은 보상을 받습니다. 이 앱은 이용 통계 도구를 사용하지 않습니다.
+                        iOS 에서는 앱 추적 투명성(ATT) 요청에 허용한 경우에만 광고 식별자가 사용되며, 허용하지 않아도 게임은 그대로 이용할 수 있고 기기의 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다. 광고 제거 상품을 구매하면 광고 없이 같은 보상을 받습니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스(Firebase)를 통해 이용 통계(앱 실행과 이용 시간, 고른 주인공, 마친 장, 무기 강화 결과, 광고 보상 시청, 구매한 상품, 주간 보스 기록, 기기 종류·국가 등)가 수집됩니다.
+                        이 통계는 앱 설치 시 생성되는 식별자로 구분되며 이름·이메일 등 개인을 직접 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정과 오류 수정 등 서비스 개선에 한정됩니다.
                         ※ 계정 삭제: 게임 안 [메뉴 &gt; 계정 &gt; 계정 삭제]에서 계정과 서버에 보관된 정보를 직접 삭제할 수 있습니다(<a href="/haneulbada/delete" className="underline hover:text-zinc-900">데이터 삭제 안내</a>). 이 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.
                     </li>
                 </ul>
@@ -207,7 +209,7 @@ function PrivacyKo() {
                     <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
-                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·뽀꼬삐 원정대의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
                     이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
                 </p>
             </section>
@@ -390,7 +392,9 @@ function PrivacyEn() {
                         * Refund request replies: if a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, the Company answers that platform's request with whether the item was delivered and the share used (the portion of the granted quantity that was used). Play records are not sent.
                         * This app serves rewarded ads (continue after falling, open one more chest, double quest rewards) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (IDFA/AAID),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
-                        On iOS, the advertising identifier is used only if the user allows the App Tracking Transparency (ATT) request; the game can be played without allowing it, and the choice can be changed at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking] on the device. Buying the Remove Ads item grants the same rewards without ads. This app uses no analytics tools.
+                        On iOS, the advertising identifier is used only if the user allows the App Tracking Transparency (ATT) request; the game can be played without allowing it, and the choice can be changed at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking] on the device. Buying the Remove Ads item grants the same rewards without ads.
+                        * To improve the service, usage statistics (app launches and time played, the hero chosen, chapters completed, weapon enhancement results, rewarded ads watched, items purchased, weekly boss records, device type, country, and similar) are collected through Google Analytics (Firebase).
+                        These statistics are identified by an identifier created when the app is installed, do not include information that directly identifies a person such as a name or email address, and are used only to improve the service, such as adjusting game difficulty and fixing errors.
                         * Account deletion: the account and the information stored on the server can be deleted directly in the game under [Menu &gt; Account &gt; Delete account] (<a href="/haneulbada/delete" className="underline hover:text-zinc-900">data deletion guide</a>). This app is not directed to children under 14.
                     </li>
                 </ul>
@@ -415,7 +419,7 @@ function PrivacyEn() {
                     <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and 뽀꼬삐 원정대</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, and 뽀꼬삐 원정대 is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and 뽀꼬삐 원정대 is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
