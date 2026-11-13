@@ -156,7 +156,8 @@ function PrivacyKo() {
                     <li>
                         <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
-                        게임 기록(가진 동물과 레벨, 스테이지 별, 보유 열매, 출석·임무 진행, 오늘의 도전 기록, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        게임 기록(가진 동물과 레벨, 스테이지 별, 보유 열매, 출석·임무 진행, 오늘의 도전 기록, 설정)은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제됩니다.
+                        다만 「오늘의 도전」 순위를 위해, 앱이 처음 실행될 때 만든 무작위 식별값과 그날 가장 많이 버틴 라운드 수가 회사 서버로 전송됩니다. 이 식별값은 이름·계정·기기 정보와 연결되지 않으며, 순위표에 보이는 이름(예: 「용감한 여우 #1234」)도 이 값에서 자동으로 만들어집니다. 순위 기록은 8일 뒤 자동으로 삭제되며, 서버는 IP 주소를 저장하지 않습니다(과도한 요청을 막기 위해 1분 동안만 메모리에 두고 지웁니다).
                         ※ 이 앱은 Google AdMob 을 통해 광고를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(Android 는 AAID, iPhone 은 이용자가 「추적 허용」에 동의한 경우에만 IDFA), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
@@ -369,7 +370,8 @@ function PrivacyEn() {
                     <li>
                         <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
-                        Game records (animals owned and their levels, stage stars, fruit held, attendance and mission progress, daily challenge records, and settings) are stored only on the user's device, are deleted when the app is uninstalled, and are never transmitted to the Company's servers.
+                        Game records (animals owned and their levels, stage stars, fruit held, attendance and mission progress, daily challenge records, and settings) are stored only on the user's device and are deleted when the app is uninstalled.
+                        For the Daily Challenge leaderboard only, a random identifier created when the app is first launched and the day's best number of rounds survived are sent to the Company's server. This identifier is not linked to any name, account, or device information, and the name shown on the leaderboard (e.g. "Brave Fox #1234") is generated automatically from it. Leaderboard records are deleted automatically after 8 days, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
                         * This app serves ads through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID on Android; on iPhone, the IDFA only if the user allows tracking),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
