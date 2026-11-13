@@ -30,7 +30,7 @@ function Terms() {
                 {lang === 'ko' ? <TermsKo /> : <TermsEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 12일' : 'Effective Date: November 12, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 13일' : 'Effective Date: November 13, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -107,13 +107,39 @@ function TermsKo() {
             </section>
 
             <section>
-                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제9조 (면책조항)</h2>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제9조 (유료 상품)</h2>
+                <p>1. "유료 상품"이란 회원이 서비스 안에서 Google Play 또는 App Store 결제로 구매하는 게임 재화(열매 · 코인 등), 꾸러미, 광고 제거 등 기능 이용권 및 이와 비슷한 디지털 콘텐츠를 말합니다.</p>
+                <p className="mt-2">2. 유료 상품의 결제는 Google LLC(Google Play) 또는 Apple Inc.(App Store)의 결제 정책에 따르며, 회사는 결제 수단 정보를 받지 않습니다. 상품의 이름 · 내용 · 가격은 구매 화면에 표시됩니다.</p>
+                <p className="mt-2">3. 회사는 결제가 해당 스토어에서 실제로 완료되었는지 확인한 뒤 유료 상품을 지급합니다. 확인이 지연되면 확인되는 대로 지급합니다.</p>
+                <p className="mt-2">4. 미성년자가 법정대리인의 동의 없이 유료 상품을 구매한 경우 미성년자 본인 또는 법정대리인은 그 구매를 취소할 수 있습니다. 다만 미성년자가 법정대리인의 동의를 받은 것으로 믿게 한 경우 등 관련 법령이 정한 경우에는 그러하지 않습니다.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제10조 (청약철회 및 환불)</h2>
+                <p>1. 회원은 유료 상품을 구매한 날부터 7일 이내에 청약철회를 할 수 있습니다. 다만 결제 즉시 지급되어 사용이 시작된 상품, 지급된 뒤 사용한 게임 재화, 구매와 동시에 효과가 적용되는 기능 이용권은 「전자상거래 등에서의 소비자보호에 관한 법률」 제17조 제2항에 따라 청약철회가 제한되며, 회사는 이를 구매 화면에 미리 알립니다.</p>
+                <p className="mt-2">2. 환불은 회원이 결제한 스토어(Google Play 또는 App Store)의 환불 절차에 따라 진행됩니다. 회사의 귀책사유로 유료 상품을 이용할 수 없는 경우에는 회사가 환불 처리를 돕습니다.</p>
+                <p className="mt-2">3. 회원이 스토어에 환불을 요청하면 스토어의 요청에 따라 회사는 해당 구매의 지급 여부와 회사의 의견을 그 스토어에 회신할 수 있습니다.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제11조 (환불 · 결제 취소 시 지급 상품의 회수)</h2>
+                <p>1. 유료 상품의 구매가 환불 · 결제 취소 · 지불 거절 등으로 취소된 경우, 회사는 그 구매로 지급한 유료 상품을 회수합니다. 기능 이용권(광고 제거 등)은 효과를 해제합니다.</p>
+                <p className="mt-2">2. 회수할 게임 재화가 회원이 보유한 양보다 많으면 보유량이 0 아래(마이너스)가 될 수 있으며, 회원은 다시 모은 게임 재화로 이를 채운 뒤에 게임 재화를 사용할 수 있습니다.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제12조 (확률형 상품)</h2>
+                <p>회사는 무작위로 결과가 정해지는 상품(알 부화 등)을 제공하는 경우, 그 종류와 획득 확률을 해당 상품을 구매하거나 이용하는 화면에서 알립니다.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제13조 (면책조항)</h2>
                 <p>회사는 천재지변 또는 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 관한 책임이 면제됩니다.</p>
                 <p className="mt-2">회사는 회원의 귀책사유로 인한 서비스 이용의 장애에 대하여 책임을 지지 않습니다. 특히 회원이 백업하지 않은 데이터의 소실에 대해서는 회사가 책임지지 않습니다.</p>
             </section>
 
             <section>
-                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제10조 (분쟁해결)</h2>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">제14조 (분쟁해결)</h2>
                 <p>회사는 회원으로부터 제출되는 불만사항 및 의견을 우선적으로 그 사항을 처리합니다. 다만, 신속한 처리가 곤란한 경우에는 회원에게 그 사유와 처리일정을 즉시 통보해 드립니다.</p>
             </section>
         </div>
@@ -189,13 +215,39 @@ function TermsEn() {
             </section>
 
             <section>
-                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 9 (Disclaimer)</h2>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 9 (Paid Items)</h2>
+                <p>1. "Paid Items" means in-game currency (berries, coins, etc.), bundles, feature passes such as ad removal, and similar digital content that a member buys within the Service through Google Play or App Store billing.</p>
+                <p className="mt-2">2. Payment for Paid Items follows the billing policies of Google LLC (Google Play) or Apple Inc. (App Store), and the Company does not receive payment method information. The name, contents, and price of each item are shown on the purchase screen.</p>
+                <p className="mt-2">3. The Company delivers Paid Items after confirming that the payment was actually completed in the relevant store. If confirmation is delayed, the item is delivered once it is confirmed.</p>
+                <p className="mt-2">4. If a minor buys a Paid Item without the consent of a legal guardian, the minor or the guardian may cancel the purchase, except where applicable law provides otherwise, such as when the minor led the Company to believe that consent had been given.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 10 (Withdrawal and Refunds)</h2>
+                <p>1. A member may withdraw a purchase within 7 days of buying a Paid Item. However, under Article 17(2) of the Korean Act on Consumer Protection in Electronic Commerce, withdrawal is restricted for items delivered and put into use immediately upon payment, in-game currency that has been used after delivery, and feature passes whose effect applies upon purchase; the Company notifies members of this on the purchase screen in advance.</p>
+                <p className="mt-2">2. Refunds are handled through the refund process of the store where the member paid (Google Play or App Store). If a Paid Item cannot be used due to the Company's fault, the Company will help process the refund.</p>
+                <p className="mt-2">3. If a member asks a store for a refund, the Company may answer that store's request with whether the purchase was delivered and the Company's opinion.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 11 (Recovery of Items on Refund or Cancellation)</h2>
+                <p>1. If a purchase of a Paid Item is cancelled by refund, payment reversal, chargeback, or similar, the Company recovers the Paid Items granted by that purchase. Feature passes (such as ad removal) are deactivated.</p>
+                <p className="mt-2">2. If the in-game currency to be recovered exceeds the amount the member holds, the balance may fall below zero, and the member can use in-game currency again after making up the shortfall.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 12 (Randomized Items)</h2>
+                <p>Where the Company offers items whose results are determined at random (such as egg hatching), it shows their types and odds on the screen where the item is bought or used.</p>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 13 (Disclaimer)</h2>
                 <p>The Company is exempt from responsibility for service provision when unable to provide the Service due to force majeure such as natural disasters.</p>
                 <p className="mt-2">The Company is not responsible for service disruptions caused by members. In particular, the Company is not responsible for loss of data that members have not backed up.</p>
             </section>
 
             <section>
-                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 10 (Dispute Resolution)</h2>
+                <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 14 (Dispute Resolution)</h2>
                 <p>The Company prioritizes handling complaints and opinions submitted by members. However, if prompt handling is difficult, the Company will immediately notify members of the reason and processing schedule.</p>
             </section>
         </div>
