@@ -6,6 +6,9 @@ export default {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['"Pretendard Variable"', 'Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+            },
             // 앱 아이콘이 가만히 있을 때 천천히 숨쉬는 정도의 확대/축소.
             // 폭(1.06)과 주기(4s)만 만지면 세기가 조절된다.
             keyframes: {

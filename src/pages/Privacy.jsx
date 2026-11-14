@@ -7,20 +7,20 @@ function Privacy() {
     return (
         <Layout>
             <div className="max-w-4xl mx-auto px-6 py-12">
-                <div className="flex items-center justify-between mb-8">
-                    <h1 className="text-2xl font-semibold text-zinc-900">
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
+                    <h1 className="text-2xl font-semibold text-zinc-900 break-keep">
                         {lang === 'ko' ? '개인정보처리방침' : 'Privacy Policy'}
                     </h1>
                     <div className="flex bg-zinc-100 rounded-lg p-1 text-sm">
                         <button
                             onClick={() => setLang('ko')}
-                            className={`px-3 py-1.5 rounded-md transition-colors ${lang === 'ko' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}
+                            className={`px-3 py-1.5 rounded-md whitespace-nowrap transition-colors ${lang === 'ko' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}
                         >
                             한국어
                         </button>
                         <button
                             onClick={() => setLang('en')}
-                            className={`px-3 py-1.5 rounded-md transition-colors ${lang === 'en' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}
+                            className={`px-3 py-1.5 rounded-md whitespace-nowrap transition-colors ${lang === 'en' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}
                         >
                             English
                         </button>

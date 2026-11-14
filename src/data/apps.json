@@ -114,6 +114,20 @@
     "description": "수레꾼 카룬과 사제 미렐, 둘 중 한 명을 골라 시작하는 이야기 액션 RPG. 베고 피하고 필살기로 쓸어 버린다",
     "icon": "haneulbada.png",
     "appStore": "",
-    "playStore": ""
+    "playStore": "",
+    "links": [
+      {
+        "label": "게임 이용약관",
+        "href": "/haneulbada/terms"
+      },
+      {
+        "label": "확률 정보",
+        "href": "/haneulbada/odds"
+      },
+      {
+        "label": "데이터 삭제",
+        "href": "/haneulbada/delete"
+      }
+    ]
   }
 ]

@@ -7,6 +7,7 @@
 //   계정 삭제 길은 blade/scripts/menu_window.gd (메뉴 → 계정 → 계정 삭제 · 두 번 누른다).
 // ⚠ 보관 기간은 Privacy.jsx 하늘바다 항목과 같은 값이어야 한다 (이용 기록 90일 · 구매 기록 5년).
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Layout from '../components/Layout';
 
 const MAIL = 'contact@damso.app';
@@ -16,17 +17,37 @@ const PITY_STEP = 500;
 const cost = (n) => 30 + n * n * 15;
 const pct = (r) => (r / 100).toFixed(r % 100 ? 2 : 0) + '%';
 
+// 세 페이지를 서로 오갈 수 있게 위에 탭으로 단다. 공용 방침도 함께 (하늘바다 수집 항목은 거기 있다).
+const TABS = [
+    { to: '/haneulbada/terms', ko: '게임 이용약관', en: 'Game Terms' },
+    { to: '/haneulbada/odds', ko: '확률 정보', en: 'Odds' },
+    { to: '/haneulbada/delete', ko: '데이터 삭제', en: 'Data Deletion' },
+    { to: '/privacy', ko: '개인정보처리방침', en: 'Privacy Policy' },
+];
+
 function Shell({ titleKo, titleEn, date, children }) {
     const [lang, setLang] = useState('ko');
     return (
         <Layout>
             <div className="max-w-4xl mx-auto px-6 py-12">
-                <div className="flex items-center justify-between mb-8">
-                    <h1 className="text-2xl font-semibold text-zinc-900">{lang === 'ko' ? titleKo : titleEn}</h1>
+                <div className="flex items-center gap-3 mb-4">
+                    <img src="/images/haneulbada.png" alt="" className="w-10 h-10 rounded-xl ring-1 ring-black/5" />
+                    <span className="text-sm font-semibold text-zinc-500">{lang === 'ko' ? '하늘바다' : 'Haneulbada'}</span>
+                </div>
+                <nav className="flex flex-wrap gap-2 mb-8">
+                    {TABS.map((t) => (
+                        <NavLink key={t.to} to={t.to}
+                            className={({ isActive }) => `px-3.5 h-8 inline-flex items-center rounded-full text-[13px] font-semibold transition-colors ${isActive ? 'bg-zinc-900 text-white' : 'bg-white ring-1 ring-zinc-200 text-zinc-600 hover:text-zinc-900'}`}>
+                            {lang === 'ko' ? t.ko : t.en}
+                        </NavLink>
+                    ))}
+                </nav>
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
+                    <h1 className="text-2xl font-semibold text-zinc-900 break-keep">{lang === 'ko' ? titleKo : titleEn}</h1>
                     <div className="flex bg-zinc-100 rounded-lg p-1 text-sm">
                         {['ko', 'en'].map((l) => (
                             <button key={l} onClick={() => setLang(l)}
-                                className={`px-3 py-1.5 rounded-md transition-colors ${lang === l ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}>
+                                className={`px-3 py-1.5 rounded-md whitespace-nowrap transition-colors ${lang === l ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-700'}`}>
                                 {l === 'ko' ? '한국어' : 'English'}
                             </button>
                         ))}

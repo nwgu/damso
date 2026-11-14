@@ -115,6 +115,9 @@ curl -s https://www.damso.app/gunline/version.json
    `ChildSafety.jsx` 는 앱 이름을 안 쓴다 — 건드릴 필요 없다
 4. AdMob 앱/광고 단위를 만든다 (`app-ads.txt` 는 그대로 둔다)
 5. **게시된 뒤에** `public/<앱>/version.json` 을 만들고 `playStore` 링크를 채운다
+6. 앱 전용 페이지(게임 약관 · 확률 · 데이터 삭제 등)를 만들었으면 `main.jsx` 에 라우트를 달고
+   **`apps.json` 의 `links: [{label, href}]` 에 넣는다** — 그래야 앱 카드 아래와 푸터에 링크가 뜬다.
+   안 넣으면 그 페이지는 주소를 아는 사람만 들어갈 수 있다 (하늘바다가 그랬다)
 
 `apps.json` 은 **추가 순서(id 오름차순)를 유지한다.** 화면에서만 `App.jsx` 가 뒤집어
 최신순으로 보여준다 — 파일을 손으로 재정렬하면 새 앱을 넣을 때마다 헷갈린다.
