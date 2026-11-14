@@ -17,27 +17,15 @@ function App() {
     const [filter, setFilter] = useState('all');
     const current = FILTERS.find((f) => f.key === filter);
     const apps = sortedApps.filter(current.match);
-    const released = appsData.filter((a) => a.appStore || a.playStore).length;
 
     return (
         <Layout>
-            {/* Hero */}
-            <section className="max-w-6xl mx-auto px-5 sm:px-6 pt-10 sm:pt-16 pb-10">
-                <p className="text-[13px] font-semibold text-zinc-400 tracking-wide">DAMSO MOBILE STUDIO</p>
-                <h1 className="mt-3 text-[34px] sm:text-5xl font-extrabold text-zinc-900 tracking-tight leading-[1.15] break-keep">
-                    작은 앱과 게임을<br className="sm:hidden" /> 만듭니다.
-                </h1>
-                <div className="mt-6 flex flex-wrap gap-2 text-[13px] font-medium text-zinc-600">
-                    <span className="px-3 py-1.5 rounded-full bg-white ring-1 ring-zinc-200">앱 {appsData.length}개</span>
-                    <span className="px-3 py-1.5 rounded-full bg-white ring-1 ring-zinc-200">출시 {released}개</span>
-                    <span className="px-3 py-1.5 rounded-full bg-white ring-1 ring-zinc-200">Android · iOS</span>
-                </div>
-            </section>
-
             {/* Apps */}
-            <section id="apps" className="max-w-6xl mx-auto px-5 sm:px-6 scroll-mt-24">
+            <section id="apps" className="max-w-6xl mx-auto px-5 sm:px-6 scroll-mt-24 pt-10 sm:pt-14">
                 <div className="flex items-center justify-between gap-4 mb-6">
-                    <h2 className="text-xl font-bold text-zinc-900 tracking-tight">앱 목록</h2>
+                    <h2 className="text-xl font-bold text-zinc-900 tracking-tight">
+                        앱 <span className="ml-1 text-zinc-400 font-semibold">{apps.length}</span>
+                    </h2>
                     <div className="flex p-1 rounded-full bg-zinc-200/60">
                         {FILTERS.map((f) => (
                             <button key={f.key} onClick={() => setFilter(f.key)}
