@@ -129,5 +129,20 @@
         "href": "/haneulbada/delete"
       }
     ]
+  },
+  {
+    "id": 14,
+    "name": "뽀꼬삐 원정대",
+    "category": "게임",
+    "description": "귀여운 동물 여덟 마리로 원정대를 꾸려 숲에 내려온 기계 군단을 막는다. 불 · 물 · 흙 · 바람을 섞어 반응을 터뜨리는 자동 전투",
+    "icon": "pokopi.png",
+    "appStore": "",
+    "playStore": "",
+    "links": [
+      {
+        "label": "확률 정보",
+        "href": "/pokopi/odds"
+      }
+    ]
   }
 ]

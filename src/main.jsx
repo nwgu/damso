@@ -7,6 +7,7 @@ import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
 import ChildSafety from './pages/ChildSafety.jsx'
 import { HaneulbadaTerms, HaneulbadaOdds, HaneulbadaDelete } from './pages/Haneulbada.jsx'
+import { PokopiOdds } from './pages/Pokopi.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/haneulbada/terms" element={<HaneulbadaTerms />} />
         <Route path="/haneulbada/odds" element={<HaneulbadaOdds />} />
         <Route path="/haneulbada/delete" element={<HaneulbadaDelete />} />
+        <Route path="/pokopi/odds" element={<PokopiOdds />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
