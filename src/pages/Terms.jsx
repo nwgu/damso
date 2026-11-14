@@ -152,7 +152,7 @@ function TermsEn() {
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 1 (Purpose)</h2>
                 {/* [Added] Until */}
-                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, Sync, Gisado, KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, 뽀꼬삐 원정대, hereinafter "Service").</p>            </section>
+                <p>These Terms govern the rights, obligations, responsibilities, and other necessary matters between Damso (hereinafter "Company") and members regarding the use of all mobile app services (including Scribbly, QuickPick, Until, Sync, Gisado, KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, Pawpaw Expedition, hereinafter "Service").</p>            </section>
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">Article 2 (Definitions)</h2>

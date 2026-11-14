@@ -368,7 +368,7 @@ function PrivacyEn() {
                         * Purchase verification: on iOS, when a product is purchased, the transaction ID and a random value created by the app to tie the purchase to the device pass through the Company's verification server to Apple to confirm the purchase was completed and whether it was later refunded; items granted for refunded purchases are taken back. This information is not stored on the verification server. If a user asks Apple for a refund, the Company may answer Apple's request with whether the item was delivered and the Company's opinion (play records and usage are not sent).
                     </li>
                     <li>
-                        <span className="font-medium text-zinc-900">뽀꼬삐 원정대:</span>
+                        <span className="font-medium text-zinc-900">Pawpaw Expedition:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
                         Game records (animals owned and their levels, stage stars, fruit held, attendance and mission progress, daily challenge records, and settings) are stored only on the user's device and are deleted when the app is uninstalled.
                         For the Daily Challenge leaderboard only, a random identifier created when the app is first launched and the day's best number of rounds survived are sent to the Company's server. This identifier is not linked to any name, account, or device information, and the name shown on the leaderboard (e.g. "Brave Fox #1234") is generated automatically from it. Leaderboard records are deleted automatically after 8 days, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
@@ -423,11 +423,11 @@ function PrivacyEn() {
                     <li>When the user has given prior consent</li>
                     <li>When required by law or when requested by investigative agencies following legal procedures</li>
                     <li>When, in Haneulbada, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the share used are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
-                    <li>When, in Twist Jam or 뽀꼬삐 원정대, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the Company's opinion are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
-                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and 뽀꼬삐 원정대</li>
+                    <li>When, in Twist Jam or Pawpaw Expedition, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the Company's opinion are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
+                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and Pawpaw Expedition</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and 뽀꼬삐 원정대 is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and Pawpaw Expedition is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
