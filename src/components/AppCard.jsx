@@ -31,7 +31,10 @@ function AppCard({ app }) {
                     />
                 </div>
                 <div className="min-w-0">
-                    <p className="text-[11px] font-semibold text-zinc-400 tracking-wide">{app.category}</p>
+                    {/* 게임은 '게임' 칸 제목이 이미 말해준다 — 앱(생산성 · 도구 …)만 분류를 단다 */}
+                    {app.category !== '게임' && (
+                        <p className="text-[11px] font-semibold text-zinc-400 tracking-wide">{app.category}</p>
+                    )}
                     <h3 className="mt-0.5 text-[19px] font-bold text-zinc-900 tracking-tight truncate">{app.name}</h3>
                     {!released && (
                         <span className="mt-1.5 inline-flex items-center gap-1.5 text-[11px] font-semibold text-amber-700 bg-amber-50 ring-1 ring-amber-200/70 px-2 py-0.5 rounded-full">
