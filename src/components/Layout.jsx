@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import appsData from '../data/apps.json';
 
 const KAKAO = 'https://open.kakao.com/o/spOG7G4h';
-const PLAY_DEV = 'https://play.google.com/store/apps/developer?id=%EB%8B%B4%EC%86%8C';
+const PLAY_DEV = 'https://play.google.com/store/apps/developer?id=Damso';
 
 // 앱 전용 안내 페이지가 있는 앱 (apps.json 의 links). 푸터에서 앱별로 묶어 보여준다.
 const appsWithLinks = [...appsData].filter((a) => a.links?.length).sort((a, b) => b.id - a.id);
