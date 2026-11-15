@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 13일' : 'Effective Date: November 13, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 15일' : 'Effective Date: November 15, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -140,13 +140,13 @@ function PrivacyKo() {
                     <li>
                         <span className="font-medium text-zinc-900">트위스트 잼(Twist Jam):</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
-                        게임 기록(도달한 레벨, 보유 코인과 도구, 빵집 꾸미기 단계, 광고 제거 구매 여부, 설정)은 사용자 기기에 저장되며, iOS 에서 기기가 iCloud 에 로그인되어 있으면 사용자 본인의 iCloud 에도 백업되어 다른 기기에서 이어 할 수 있습니다. 이 기록은 회사 서버로 전송되지 않으며 회사는 사용자의 iCloud 에 접근할 수 없습니다.
+                        게임 기록(도달한 레벨, 보유 코인과 도구, 빵집 꾸미기 단계, 광고 제거 구매 여부, 설정)은 사용자 기기에 저장되며, iOS 에서 기기가 iCloud 에 로그인되어 있으면 사용자 본인의 iCloud 에도 백업되어 다른 기기에서 이어 할 수 있습니다. Android 에서는 기기의 Google 백업이 켜져 있으면 사용자 본인 Google 계정의 기기 백업에 포함될 수 있습니다. 이 기록은 회사 서버로 전송되지 않으며 회사는 사용자의 iCloud 나 Google 계정 백업에 접근할 수 없습니다.
                         ※ 이 앱은 Google AdMob 을 통해 보상형 광고(이어하기, 도구 받기, 코인 2배)와 레벨 사이 전면 광고를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(IDFA·AAID), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
                         iOS 에서는 앱 추적 투명성(ATT) 요청에 허용한 경우에만 광고 식별자가 사용되며, 허용하지 않아도 게임은 그대로 이용할 수 있고 기기의 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다.
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
-                        ※ 인앱 결제는 Apple App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않고 구매 내역을 회사 서버에 저장하지 않습니다.
+                        ※ 인앱 결제는 Android 는 Google Play 결제, iPhone 은 App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않고 구매 내역을 회사 서버에 저장하지 않습니다.
                         유럽경제지역(EEA)·영국·스위스 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
                         동의한 뒤에도 게임 내 [설정 &gt; 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
@@ -190,6 +190,22 @@ function PrivacyKo() {
                         이 통계는 앱 설치 시 생성되는 식별자로 구분되며 이름·이메일 등 개인을 직접 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정과 오류 수정 등 서비스 개선에 한정됩니다.
                         ※ 계정 삭제: 게임 안 [메뉴 &gt; 계정 &gt; 계정 삭제]에서 계정과 서버에 보관된 정보를 직접 삭제할 수 있습니다(<a href="/haneulbada/delete" className="underline hover:text-zinc-900">데이터 삭제 안내</a>). 이 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.
                     </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">지붕 타는 개구리(Rooftop Frog):</span>
+                        회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
+                        게임 기록(깬 단계와 별, 최고 점수, 설정)과 광고 제거 구매 기록은 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
+                        ※ 이 앱은 Google AdMob 을 통해 판과 판 사이의 전면 광고와 보상형 광고(이어하기, 단계 건너뛰기)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(Android 는 AAID, iPhone 은 이용자가 「추적 허용」에 동의한 경우에만 IDFA), IP 주소에 기반한 대략적인 위치,
+                        광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
+                        자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
+                        이용자는 Android 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있고, iPhone 은 처음 실행할 때 추적 허용 여부를 물으며 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다.
+                        광고 제거 상품을 구매하면 전면 광고가 나오지 않고, 이어하기·건너뛰기 보상을 광고 없이 바로 받습니다.
+                        ※ 인앱 결제는 Android 는 Google Play 결제, iPhone 은 App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않습니다.
+                        ※ 결제 확인: 상품을 구매하면 구매 토큰(Android) 또는 거래 번호와 구매를 기기에 묶기 위해 앱이 만든 무작위 값(iPhone)이 회사의 확인 서버(Vultr Holdings, Inc. · 대한민국 서울 리전)를 거쳐 Google 또는 Apple 에 전달되어 구매가 실제로 완료되었는지, 이후 환불 · 취소되었는지 확인하며, 환불 · 취소된 구매로 지급한 광고 제거는 회수합니다. 이 정보는 확인 서버에 저장되지 않으며, 서버는 IP 주소를 저장하지 않습니다(과도한 요청을 막기 위해 1분 동안만 메모리에 두고 지웁니다).
+                        유럽경제지역(EEA)·영국·스위스 및 미국 일부 주 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
+                        동의한 뒤에도 게임 내 [설정 &gt; 광고 개인정보] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
+                        이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
+                    </li>
                 </ul>
             </section>
 
@@ -210,7 +226,7 @@ function PrivacyKo() {
                     <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
                     <li>하늘바다(Haneulbada)에서 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소한 경우, 해당 플랫폼(Apple Inc. · Google LLC)의 요청에 따라 그 구매의 상품 지급 여부와 사용 비율을 회신하기 위해 제공되는 경우</li>
                     <li>트위스트 잼(Twist Jam)·뽀꼬삐 원정대에서 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소한 경우, 해당 플랫폼(Apple Inc. · Google LLC)의 요청에 따라 그 구매의 상품 지급 여부와 회사의 의견을 회신하기 위해 제공되는 경우</li>
-                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
+                    <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대·지붕 타는 개구리(Rooftop Frog)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
                     한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
@@ -241,7 +257,7 @@ function PrivacyKo() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. 개인정보처리방침 변경</h2>
-                <p>이 개인정보처리방침은 2026년 11월 10일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <p>이 개인정보처리방침은 2026년 11월 15일부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
             </section>
         </div>
     );
@@ -353,13 +369,13 @@ function PrivacyEn() {
                     <li>
                         <span className="font-medium text-zinc-900">Twist Jam:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
-                        Game records (level reached, coins and tools held, bakery decoration stages, whether ad removal was purchased, and settings) are stored on the user's device and, on iOS, also backed up to the user's own iCloud if the device is signed in, so play can continue on another device. These records are never transmitted to the Company's servers, and the Company cannot access the user's iCloud.
+                        Game records (level reached, coins and tools held, bakery decoration stages, whether ad removal was purchased, and settings) are stored on the user's device and, on iOS, also backed up to the user's own iCloud if the device is signed in, so play can continue on another device. On Android, they may be included in the device backup of the user's own Google account if Google backup is turned on. These records are never transmitted to the Company's servers, and the Company cannot access the user's iCloud or Google account backup.
                         * This app serves rewarded ads (continue, receive tools, double coins) and interstitial ads between levels through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (IDFA/AAID),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
                         On iOS, the advertising identifier is used only if the user allows the App Tracking Transparency (ATT) request; the game can be played without allowing it, and the choice can be changed at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking] on the device.
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
-                        * In-app purchases are processed by Apple App Store payments. The Company does not receive payment information such as payment methods and does not store purchase history on its servers.
+                        * In-app purchases are processed by Google Play billing on Android and App Store payments on iPhone. The Company does not receive payment information such as payment methods and does not store purchase history on its servers.
                         Users in the European Economic Area (EEA), the United Kingdom, and Switzerland are asked for consent regarding ad personalization through
                         Google's User Messaging Platform (UMP), and may change those settings or withdraw consent at any time from
                         [Settings &gt; Privacy Settings] inside the game.
@@ -404,6 +420,22 @@ function PrivacyEn() {
                         These statistics are identified by an identifier created when the app is installed, do not include information that directly identifies a person such as a name or email address, and are used only to improve the service, such as adjusting game difficulty and fixing errors.
                         * Account deletion: the account and the information stored on the server can be deleted directly in the game under [Menu &gt; Account &gt; Delete account] (<a href="/haneulbada/delete" className="underline hover:text-zinc-900">data deletion guide</a>). This app is not directed to children under 14.
                     </li>
+                    <li>
+                        <span className="font-medium text-zinc-900">Rooftop Frog:</span>
+                        No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
+                        Game records (stages cleared and stars, best scores, and settings) and the Remove Ads purchase record are stored only on the user's device, are deleted when the app is uninstalled, and are not sent to the Company's server.
+                        * This app serves interstitial ads between rounds and rewarded ads (continue, skip a stage) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID on Android; on iPhone, the IDFA only if the user allows tracking),
+                        approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
+                        For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
+                        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
+                        On Android, users can reset or delete the advertising identifier under [Settings &gt; Google &gt; Ads]; on iPhone, the app asks for tracking permission at first launch and users can change it at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking].
+                        Buying the Remove Ads item removes interstitial ads and grants the continue and skip rewards immediately without ads.
+                        * In-app purchases are processed by Google Play billing on Android and App Store billing on iPhone. The Company does not receive payment information such as payment methods.
+                        * Purchase verification: when a product is purchased, the purchase token (Android) or the transaction ID and a random value created by the app to tie the purchase to the device (iPhone) pass through the Company's verification server (Vultr Holdings, Inc., Seoul, Republic of Korea region) to Google or Apple to confirm the purchase was completed and whether it was later refunded or cancelled; Remove Ads granted for a refunded or cancelled purchase is taken back. This information is not stored on the verification server, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
+                        Users in the European Economic Area (EEA), the United Kingdom, Switzerland, and certain U.S. states are asked for consent regarding ad personalization through Google's User Messaging Platform (UMP),
+                        and can change the setting or withdraw consent at any time in the game under [Settings &gt; Ad Privacy].
+                        This app is not directed to children under 13, and ad content is limited to a teen rating or below.
+                    </li>
                 </ul>
             </section>
 
@@ -424,7 +456,7 @@ function PrivacyEn() {
                     <li>When required by law or when requested by investigative agencies following legal procedures</li>
                     <li>When, in Haneulbada, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the share used are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
                     <li>When, in Twist Jam or Pawpaw Expedition, a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, and whether the item was delivered and the Company's opinion are provided to that platform (Apple Inc. or Google LLC) to answer its request</li>
-                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and Pawpaw Expedition</li>
+                    <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, Pawpaw Expedition, and Rooftop Frog</li>
                 </ul>
                 <p className="mt-3">
                     Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, and Pawpaw Expedition is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
@@ -455,7 +487,7 @@ function PrivacyEn() {
 
             <section>
                 <h2 className="text-lg font-semibold text-zinc-900 mb-3">7. Changes to Privacy Policy</h2>
-                <p>This Privacy Policy is effective from November 10, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
+                <p>This Privacy Policy is effective from November 15, 2026. Any additions, deletions, or modifications will be announced through notices at least 7 days before implementation.</p>
             </section>
         </div>
     );
