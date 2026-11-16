@@ -90,8 +90,10 @@ export function HaneulbadaTerms() {
                         <p className="mt-2">위 행위가 서버 기록으로 확인되면 회사는 이용을 제한하고, 부정하게 얻은 재화·상품·순위 기록을 회수하거나 지울 수 있습니다. 이용자는 통지를 받은 날부터 15일 이내에 {MAIL} 로 이의를 신청할 수 있으며, 회사는 15일 이내에 답변합니다.</p></section>
                     <section><H>제4조 (유료 상품)</H>
                         <UL>
-                            <li>회사는 게임 안에서 코스튬, 보호 주문서, 소금(게임 재화), 가방 확장, 스킬 초기화권, 광고 제거 등의 상품을 판매할 수 있습니다. 상품의 구성과 가격은 게임 안 구매 화면에 표시되며, 결제는 Google Play 또는 App Store 결제로 이루어집니다.</li>
-                            <li>코스튬과 광고 제거는 구매한 계정에 영구히 적용됩니다. 소금·보호 주문서·초기화권은 사용하면 소멸합니다. iPhone 에서는 게임 안 [메뉴 &gt; 계정 &gt; 구매 복원]으로 코스튬과 광고 제거를 되찾을 수 있습니다.</li>
+                            <li>회사는 게임 안에서 코스튬, 보호 주문서, 소금(게임 재화), 가방 확장, 스킬 초기화권, 광고 제거, 꾸러미, 모험 패스 등의 상품을 판매할 수 있습니다. 상품의 구성과 가격은 게임 안 구매 화면에 표시되며, 결제는 Google Play 또는 App Store 결제로 이루어집니다.</li>
+                            <li>코스튬, 광고 제거, 모험 패스는 구매한 계정에 영구히 적용됩니다. 소금·보호 주문서·초기화권은 사용하면 소멸합니다. iPhone 에서는 게임 안 [메뉴 &gt; 계정 &gt; 구매 복원]으로 코스튬, 광고 제거, 모험 패스를 되찾을 수 있습니다.</li>
+                            <li>판매하는 코스튬에는 보유하는 동안 해당 주인공에게 적용되는 능력치 효과(예: 공격력 +3%)가 있을 수 있으며, 그 내용은 구매 화면과 옷장에 표시됩니다. 이 효과는 주간 순위 기록에도 반영됩니다.</li>
+                            <li>모험 패스는 구매한 계정이 이야기의 장을 마칠 때마다(구매 전에 마친 장 포함) 주인공별로 정해진 보상을 지급합니다. 패스 구매가 환불·취소되면 패스로 지급한 보상도 회수됩니다.</li>
                         </UL></section>
                     <section><H>제5조 (청약철회와 환불)</H>
                         <UL>
@@ -136,8 +138,10 @@ export function HaneulbadaTerms() {
                         <p className="mt-2">If such conduct is confirmed by server records, the Company may restrict use and take back or delete improperly obtained currency, items, or ranking records. Users may appeal to {MAIL} within 15 days of notice, and the Company will respond within 15 days.</p></section>
                     <section><H>Article 4 (Paid Items)</H>
                         <UL>
-                            <li>The Company may sell items in the Game such as costumes, protection scrolls, salt (game currency), bag expansions, skill reset tickets, and ad removal. Contents and prices are shown on the in-game purchase screen, and payment is made through Google Play or the App Store.</li>
-                            <li>Costumes and ad removal apply permanently to the purchasing account. Salt, protection scrolls, and reset tickets are consumed when used. On iPhone, costumes and ad removal can be recovered with [Menu &gt; Account &gt; Restore purchases].</li>
+                            <li>The Company may sell items in the Game such as costumes, protection scrolls, salt (game currency), bag expansions, skill reset tickets, ad removal, bundles, and the Adventure Pass. Contents and prices are shown on the in-game purchase screen, and payment is made through Google Play or the App Store.</li>
+                            <li>Costumes, ad removal, and the Adventure Pass apply permanently to the purchasing account. Salt, protection scrolls, and reset tickets are consumed when used. On iPhone, costumes, ad removal, and the Adventure Pass can be recovered with [Menu &gt; Account &gt; Restore purchases].</li>
+                            <li>Costumes sold may carry a stat effect for their hero while owned (for example, attack +3%), shown on the purchase screen and in the wardrobe. This effect also counts toward the weekly ranking.</li>
+                            <li>The Adventure Pass grants a set reward per hero each time the purchasing account completes a story chapter (including chapters completed before purchase). If the pass purchase is refunded or cancelled, rewards granted by the pass are taken back.</li>
                         </UL></section>
                     <section><H>Article 5 (Withdrawal and Refunds)</H>
                         <UL>
