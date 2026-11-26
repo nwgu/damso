@@ -45,7 +45,8 @@ function AppCard({ app }) {
                 </div>
             </div>
 
-            <p className="mt-4 text-[14px] leading-relaxed text-zinc-600 break-keep flex-1">
+            {/* 링크 줄이 있는 카드만 버튼을 아래로 민다 — 없는 카드까지 밀면 같은 줄의 긴 카드에 맞춰 설명과 버튼 사이가 빈다 */}
+            <p className={`mt-4 text-[14px] leading-relaxed text-zinc-600 break-keep ${app.links?.length > 0 ? 'flex-1' : ''}`}>
                 {app.description}
             </p>
 
