@@ -218,6 +218,8 @@ function PrivacyKo() {
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
                         이용자는 Android 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있고, iPhone 은 처음 실행할 때 추적 허용 여부를 물으며 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다. 광고 제거 상품을 구매하면 전면 광고가 나오지 않습니다.
+                        ※ 서비스 개선을 위해 Google 애널리틱스(Firebase)를 통해 이용 통계(앱 실행, 시작하고 마친 판과 별 · 철거율, 쓴 무기, 필살기 사용, 보상형 광고 시청, 구매한 상품, 기기 종류·국가 등)가 수집됩니다.
+                        이 통계는 앱 설치 시 생성되는 식별자로 구분되며 이름·이메일 등 개인을 직접 식별하는 정보를 포함하지 않고, 이용 목적은 게임 난이도 조정과 오류 수정 등 서비스 개선에 한정됩니다.
                         ※ 인앱 결제는 Android 는 Google Play 결제, iPhone 은 App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않습니다.
                         ※ 결제 확인: 상품을 구매하면 구매 토큰(Android) 또는 거래 번호와 구매를 기기에 묶기 위해 앱이 만든 무작위 값(iPhone)이 회사의 확인 서버(Vultr Holdings, Inc. · 대한민국 서울 리전)를 거쳐 Google 또는 Apple 에 전달되어 구매가 실제로 완료되었는지 확인합니다. 이 정보는 확인 서버에 저장되지 않으며, 서버는 IP 주소를 저장하지 않습니다(과도한 요청을 막기 위해 1분 동안만 메모리에 두고 지웁니다).
                         ※ 환불 요청 회신: 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소하면, 해당 플랫폼의 요청에 따라 그 구매의 상품 지급 여부와 회사의 의견을 해당 플랫폼에 회신할 수 있습니다. 진행 기록과 사용량은 회신하지 않습니다.
@@ -248,7 +250,7 @@ function PrivacyKo() {
                     <li>키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대·지붕 타는 개구리(Rooftop Frog)·펑! 철거왕(BOOM! Demolition)의 광고 게재를 위해 Google AdMob 및 광고 파트너에게 광고 식별자, 대략적인 위치, 앱 상호작용 정보가 제공되는 경우</li>
                 </ul>
                 <p className="mt-3">
-                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대·지붕 타는 개구리(Rooftop Frog)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
+                    한편 키네틱코어(KineticCore)·건라인(Gunline)·집지키기(HomeKeep)·신전으로(To the Sanctum)·트위스트 잼(Twist Jam)·하늘바다(Haneulbada)·뽀꼬삐 원정대·지붕 타는 개구리(Rooftop Frog)·펑! 철거왕(BOOM! Demolition)의 이용 통계 분석은 Google 애널리틱스에 <span className="font-medium text-zinc-900">처리위탁</span>하고 있습니다.
                     이는 회사를 대신하여 통계를 처리하는 것으로 제3자 제공에 해당하지 않으며, 수탁자는 위탁 목적 외의 용도로 해당 정보를 이용할 수 없습니다.
                 </p>
             </section>
@@ -467,6 +469,8 @@ function PrivacyEn() {
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
                         On Android, users can reset or delete the advertising identifier under [Settings &gt; Google &gt; Ads]; on iPhone, the app asks for tracking permission at first launch and users can change it at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking]. Buying the Remove Ads item removes interstitial ads.
+                        * To improve the service, usage statistics (app launches, stages started and finished with stars and demolition rate, weapons used, special attacks used, rewarded ads watched, items purchased, device type, country, and similar) are collected through Google Analytics (Firebase).
+                        These statistics are identified by an identifier created when the app is installed, do not include information that directly identifies a person such as a name or email address, and are used only to improve the service, such as adjusting game difficulty and fixing errors.
                         * In-app purchases are processed by Google Play billing on Android and App Store billing on iPhone. The Company does not receive payment information such as payment methods.
                         * Purchase verification: when a product is purchased, the purchase token (Android) or the transaction ID and a random value created by the app to tie the purchase to the device (iPhone) pass through the Company's verification server (Vultr Holdings, Inc., Seoul, Republic of Korea region) to Google or Apple to confirm the purchase was completed. This information is not stored on the verification server, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
                         * Refund request replies: if a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, the Company may answer that platform's request with whether the item was delivered and the Company's opinion. Play records and usage are not sent.
@@ -497,7 +501,7 @@ function PrivacyEn() {
                     <li>When the advertising identifier, approximate location, and app interaction data are provided to Google AdMob and its advertising partners in order to serve ads in KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, Pawpaw Expedition, Rooftop Frog, and BOOM! Demolition</li>
                 </ul>
                 <p className="mt-3">
-                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, Pawpaw Expedition, and Rooftop Frog is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
+                    Separately, usage statistics analysis for KineticCore, Gunline, HomeKeep, To the Sanctum, Twist Jam, Haneulbada, Pawpaw Expedition, Rooftop Frog, and BOOM! Demolition is <span className="font-medium text-zinc-900">entrusted</span> to Google Analytics.
                     Google Analytics processes this data on the Company's behalf, which does not constitute provision to a third party, and the processor may not use the information for any purpose beyond the entrusted scope.
                 </p>
             </section>
