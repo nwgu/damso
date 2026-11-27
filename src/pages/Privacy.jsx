@@ -213,14 +213,14 @@ function PrivacyKo() {
                         <span className="font-medium text-zinc-900">펑! 철거왕(BOOM! Demolition):</span>
                         회원가입·로그인이 없으며 이름, 이메일, 전화번호 등 개인을 직접 식별하는 정보를 수집하지 않습니다.
                         게임 기록(진행한 판과 별, 코인·보석·충전권, 무기·개조·강화 상태, 도시, 발파 패스, 구매한 상품, 설정)은 암호화되어 사용자 기기 내부에만 저장되고 앱 삭제 시 함께 삭제되며 회사 서버로 전송되지 않습니다.
-                        ※ 이 앱은 Google AdMob 을 통해 판과 판 사이의 전면 광고와 보상형 광고(결과 2배, 연료 추가, 무료 상자 등)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(AAID), IP 주소에 기반한 대략적인 위치,
+                        ※ 이 앱은 Google AdMob 을 통해 판과 판 사이의 전면 광고와 보상형 광고(결과 2배, 연료 추가, 무료 상자 등)를 제공하며, 이 과정에서 Google 및 광고 파트너가 광고 식별자(Android 는 AAID, iPhone 은 이용자가 「추적 허용」에 동의한 경우에만 IDFA), IP 주소에 기반한 대략적인 위치,
                         광고 노출·클릭 등 앱 상호작용 정보를 수집·이용할 수 있습니다. 이용 목적은 광고 게재, 광고 실적 측정, 부정 이용 방지이며 모든 전송은 암호화된 연결(HTTPS)로 이루어집니다.
                         자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 개인정보처리방침</a> 및{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google 파트너 사이트 정책</a>을 참고하시기 바랍니다.
-                        이용자는 Android 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있습니다. 광고 제거 상품을 구매하면 전면 광고가 나오지 않습니다.
-                        ※ 인앱 결제는 Google Play 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않습니다.
-                        ※ 결제 확인: 상품을 구매하면 구매 토큰이 회사의 확인 서버(Vultr Holdings, Inc. · 대한민국 서울 리전)를 거쳐 Google 에 전달되어 구매가 실제로 완료되었는지 확인합니다. 이 정보는 확인 서버에 저장되지 않으며, 서버는 IP 주소를 저장하지 않습니다(과도한 요청을 막기 위해 1분 동안만 메모리에 두고 지웁니다).
-                        ※ 환불 요청 회신: 이용자가 Google Play 결제를 카드사에서 취소하면, Google 의 요청에 따라 그 구매의 상품 지급 여부와 회사의 의견을 Google 에 회신할 수 있습니다. 진행 기록과 사용량은 회신하지 않습니다.
+                        이용자는 Android 기기의 [설정 &gt; Google &gt; 광고] 에서 광고 식별자를 재설정하거나 삭제할 수 있고, iPhone 은 처음 실행할 때 추적 허용 여부를 물으며 [설정 &gt; 개인정보 보호 및 보안 &gt; 추적] 에서 언제든 바꿀 수 있습니다. 광고 제거 상품을 구매하면 전면 광고가 나오지 않습니다.
+                        ※ 인앱 결제는 Android 는 Google Play 결제, iPhone 은 App Store 결제로 처리되며, 회사는 결제 수단 등 결제 정보를 받지 않습니다.
+                        ※ 결제 확인: 상품을 구매하면 구매 토큰(Android) 또는 거래 번호와 구매를 기기에 묶기 위해 앱이 만든 무작위 값(iPhone)이 회사의 확인 서버(Vultr Holdings, Inc. · 대한민국 서울 리전)를 거쳐 Google 또는 Apple 에 전달되어 구매가 실제로 완료되었는지 확인합니다. 이 정보는 확인 서버에 저장되지 않으며, 서버는 IP 주소를 저장하지 않습니다(과도한 요청을 막기 위해 1분 동안만 메모리에 두고 지웁니다).
+                        ※ 환불 요청 회신: 이용자가 Apple 에 환불을 요청하거나 Google Play 결제를 카드사에서 취소하면, 해당 플랫폼의 요청에 따라 그 구매의 상품 지급 여부와 회사의 의견을 해당 플랫폼에 회신할 수 있습니다. 진행 기록과 사용량은 회신하지 않습니다.
                         유럽경제지역(EEA)·영국·스위스 및 미국 일부 주 이용자에게는 Google 사용자 메시지 플랫폼(UMP)을 통해 광고 개인 맞춤 설정에 관한 동의를 요청하며,
                         동의한 뒤에도 게임 내 [설정 &gt; 광고 개인정보 설정] 에서 언제든지 설정을 변경하거나 동의를 철회할 수 있습니다.
                         이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 광고 수위는 청소년 등급 이하로 제한됩니다.
@@ -462,14 +462,14 @@ function PrivacyEn() {
                         <span className="font-medium text-zinc-900">BOOM! Demolition:</span>
                         No account or login is required, and no directly identifying information such as name, email address, or phone number is collected.
                         Game records (stages played and stars, coins, gems and charges, weapon, mod and upgrade state, city, Blast Pass, purchased items, and settings) are stored encrypted only on the user's device, are deleted when the app is uninstalled, and are not sent to the Company's server.
-                        * This app serves interstitial ads between rounds and rewarded ads (double rewards, extra fuel, free chests, and similar) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID),
+                        * This app serves interstitial ads between rounds and rewarded ads (double rewards, extra fuel, free chests, and similar) through Google AdMob. In this process, Google and its advertising partners may collect and use the advertising identifier (AAID on Android; on iPhone, the IDFA only if the user allows tracking),
                         approximate location derived from the IP address, and app interaction data such as ad impressions and clicks. The purposes are ad delivery, ad performance measurement, and fraud prevention, and all transmission uses an encrypted connection (HTTPS).
                         For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Privacy Policy</a> and{' '}
                         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noreferrer" className="underline hover:text-zinc-900">Google Partner Sites Policy</a>.
-                        On Android, users can reset or delete the advertising identifier under [Settings &gt; Google &gt; Ads]. Buying the Remove Ads item removes interstitial ads.
-                        * In-app purchases are processed by Google Play billing. The Company does not receive payment information such as payment methods.
-                        * Purchase verification: when a product is purchased, the purchase token passes through the Company's verification server (Vultr Holdings, Inc., Seoul, Republic of Korea region) to Google to confirm the purchase was completed. This information is not stored on the verification server, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
-                        * Refund request replies: if a user has a Google Play payment reversed through their card issuer, the Company may answer Google's request with whether the item was delivered and the Company's opinion. Play records and usage are not sent.
+                        On Android, users can reset or delete the advertising identifier under [Settings &gt; Google &gt; Ads]; on iPhone, the app asks for tracking permission at first launch and users can change it at any time under [Settings &gt; Privacy &amp; Security &gt; Tracking]. Buying the Remove Ads item removes interstitial ads.
+                        * In-app purchases are processed by Google Play billing on Android and App Store billing on iPhone. The Company does not receive payment information such as payment methods.
+                        * Purchase verification: when a product is purchased, the purchase token (Android) or the transaction ID and a random value created by the app to tie the purchase to the device (iPhone) pass through the Company's verification server (Vultr Holdings, Inc., Seoul, Republic of Korea region) to Google or Apple to confirm the purchase was completed. This information is not stored on the verification server, and the server does not store IP addresses (they are kept in memory for one minute only to block excessive requests).
+                        * Refund request replies: if a user asks Apple for a refund or has a Google Play payment reversed through their card issuer, the Company may answer that platform's request with whether the item was delivered and the Company's opinion. Play records and usage are not sent.
                         Users in the European Economic Area (EEA), the United Kingdom, Switzerland, and certain U.S. states are asked for consent regarding ad personalization through Google's User Messaging Platform (UMP),
                         and can change the setting or withdraw consent at any time in the game under [Settings &gt; Ad privacy settings].
                         This app is not directed to children under 13, and ad content is limited to a teen rating or below.
