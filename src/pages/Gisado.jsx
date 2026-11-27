@@ -43,6 +43,11 @@ export function GisadoDelete() {
                                     <li>안내를 확인하고 <b>탈퇴</b>를 누르면 그 자리에서 영구 삭제됩니다.</li>
                                 </ol>
                                 <p className="mt-2 text-sm text-zinc-400">인터넷에 연결되어 있어야 합니다.</p></section>
+                            <section><H>계정은 두고 학습 기록만 지우기</H>
+                                <ol className="list-decimal pl-6 space-y-1">
+                                    <li>앱의 <b>마이</b> 탭에서 <b>학습 데이터 초기화</b>를 누릅니다.</li>
+                                    <li><b>초기화</b>를 누르면 문제 풀이 기록, 오답 노트, AI 분석 리포트가 즉시 삭제됩니다. 계정(이메일·이름)과 알림 설정은 남습니다.</li>
+                                </ol></section>
                             <section><H>앱을 열 수 없을 때</H>
                                 <p>{MAIL} 로 로그인에 사용한 이메일 주소와 함께 「기사도 계정 삭제」를 보내 주십시오. 확인 후 7일 이내에 삭제하고 회신드립니다.</p></section>
                             <section><H>삭제되는 정보</H>
@@ -63,6 +68,11 @@ export function GisadoDelete() {
                                     <li>Confirm, and your account is permanently deleted right away.</li>
                                 </ol>
                                 <p className="mt-2 text-sm text-zinc-400">An internet connection is required.</p></section>
+                            <section><H>Delete only your study records (keep the account)</H>
+                                <ol className="list-decimal pl-6 space-y-1">
+                                    <li>In the app, open the <b>My</b> tab and tap <b>Reset study data</b> (학습 데이터 초기화).</li>
+                                    <li>Confirm, and your quiz records, wrong-answer notes and AI analysis reports are deleted immediately. Your account (email, name) and notification settings are kept.</li>
+                                </ol></section>
                             <section><H>If you cannot open the app</H>
                                 <p>Send "Gisado account deletion" to {MAIL} with the email address you signed in with. We will delete it and reply within 7 days.</p></section>
                             <section><H>What is deleted</H>
