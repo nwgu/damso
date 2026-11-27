@@ -30,7 +30,7 @@ function Privacy() {
                 {lang === 'ko' ? <PrivacyKo /> : <PrivacyEn />}
 
                 <div className="mt-8 text-sm text-zinc-400">
-                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 15일' : 'Effective Date: November 15, 2026'}</p>
+                    <p>{lang === 'ko' ? '시행일자: 2026년 11월 27일' : 'Effective Date: November 27, 2026'}</p>
                 </div>
             </div>
         </Layout>
@@ -70,8 +70,8 @@ function PrivacyKo() {
                     <li><span className="font-medium text-zinc-900">Until(언틸):</span> 별도 서버 수집 정보 없음 (모든 데이터는 사용자 기기에만 저장)</li>
                     <li>
                         <span className="font-medium text-zinc-900">기사도(Gisado):</span>
-                        소셜 로그인 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등), 푸시 알림 토큰(FCM),
-                        시험 목표일 서버 저장. ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다. ※ 서비스 개선을 위해 Firebase Analytics 를 통해 익명 사용 통계(앱 사용 시간, 화면 이동 경로, 기기 정보)가 수집됩니다.
+                        로그인 없이도 이용할 수 있으며, 로그인 전 풀이 기록은 사용자 기기에만 저장되었다가 로그인 시 계정으로 옮겨집니다. 소셜 로그인(Google·Apple) 시 이메일, 이름 수집. 학습 기록(풀이 이력, 오답 등), 푸시 알림 토큰(FCM),
+                        시험 목표일 서버 저장. ※ AI 맞춤형 분석(Gemini API)을 위해 학습 통계 데이터가 외부로 전송되나, 개인식별 정보는 제외되며 AI 모델 학습용으로 사용되지 않습니다. ※ 서비스 개선을 위해 Firebase Analytics 를 통해 익명 사용 통계(앱 사용 시간, 화면 이동 경로, 기기 정보)가 수집됩니다. ※ 계정 삭제: 앱 [마이 &gt; 회원 탈퇴]에서 계정과 서버에 저장된 정보를 즉시 삭제할 수 있습니다(<a href="/gisado/delete" className="underline hover:text-zinc-900">계정·데이터 삭제 안내</a>).
                     </li>
                     <li>
                         <span className="font-medium text-zinc-900">키네틱코어(KineticCore):</span>
@@ -317,8 +317,8 @@ function PrivacyEn() {
                     <li><span className="font-medium text-zinc-900">Until. (D-Day App):</span> No server-side data collection (All data stored locally on device)</li>
                     <li>
                         <span className="font-medium text-zinc-900">Gisado:</span>
-                        Collects email and name during social login. Study logs (quiz results) are stored on the server.
-                        * Study statistics are transmitted to an external AI service (Gemini API) for weakness analysis, but personally identifiable information is excluded and data is not used for AI training.
+                        Can be used without signing in; records made before signing in are stored only on the device and moved to the account upon sign-in. Collects email and name during social login (Google, Apple). Study logs (quiz results), push notification token (FCM) and target exam date are stored on the server.
+                        * Study statistics are transmitted to an external AI service (Gemini API) for weakness analysis, but personally identifiable information is excluded and data is not used for AI training. * Anonymous usage statistics are collected via Firebase Analytics. * Account deletion: in the app under [My &gt; Delete account], the account and server data are deleted immediately (<a href="/gisado/delete" className="underline hover:text-zinc-900">deletion guide</a>).
                     </li>
                     <li>
                         <span className="font-medium text-zinc-900">KineticCore:</span>
