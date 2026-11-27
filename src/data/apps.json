@@ -153,5 +153,14 @@
     "icon": "rooftopfrog.png",
     "appStore": "https://apps.apple.com/kr/app/id6835112750",
     "playStore": ""
+  },
+  {
+    "id": 16,
+    "name": "펑! 철거왕",
+    "category": "게임",
+    "description": "꾹 누르면 쏘고, 떼면 펑. 원시 시대 움집부터 은하 중심까지, 빛나는 약한 기둥을 맞혀 건물을 통째로 무너뜨린다",
+    "icon": "boomdemolition.png",
+    "appStore": "",
+    "playStore": ""
   }
 ]
